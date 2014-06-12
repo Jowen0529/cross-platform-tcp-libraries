@@ -1,0 +1,33 @@
+# GitIgnore
+# Compiled Object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake
+MakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+# ROS
+build/
+bin/
+
+# Xcode
+*.xcbkptlist
+
+# VisualStudio
+*.suo
+*.user
+*.idb
+*.pdb
+*.ilk
+*.tlog
+*.lastbuildstate
+*.log

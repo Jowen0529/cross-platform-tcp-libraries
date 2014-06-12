@@ -1,0 +1,17 @@
+<package>
+  <description brief="TCPROS">
+
+     TCPROS
+
+  </description>
+  <author>Zach Metcalf</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/TCPROS</url>
+
+	<depend package="roscpp"/>
+	<depend package="sensor_msgs"/>
+
+</package>
+
+
