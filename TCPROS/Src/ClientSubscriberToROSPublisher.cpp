@@ -39,8 +39,11 @@ int main(int argc, char* argv[])
 	std::string ServerIP("127.0.0.1");
 	std::string ServerPort("45000");	
 
-	ClientIP = std::string("10.122.206.53");
-	ServerIP = std::string("10.122.202.76");
+	//ClientIP = std::string("10.122.206.53");
+	//ServerIP = std::string("10.122.202.76");
+	
+	ClientIP = std::string("192.168.2.163");
+	ServerIP = std::string("192.168.2.77");
 
 
 	// Create Client Subscriber
@@ -77,6 +80,7 @@ int main(int argc, char* argv[])
 				rosMessage.data = messageToReceive;
 				
 				publisher.publish(rosMessage);
+				
 				ros::spinOnce();	
 			}
 		}
