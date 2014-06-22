@@ -7,5 +7,5 @@
 // Build Settings for TCPLibrary
 //
 
-#define WINDOWS_PLATFORM 1
-//#define LINUX_PLATFORM 1
+//#define WINDOWS_PLATFORM 1
+#define LINUX_PLATFORM 1

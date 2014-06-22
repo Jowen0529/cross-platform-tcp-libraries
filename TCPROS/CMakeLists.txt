@@ -12,8 +12,8 @@ include($ENV{ROS_ROOT}/core/rosbuild/rosbuild.cmake)
 rosbuild_init()
 
 
-#C++11
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
+# C++11
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x -pthread")
 
 
 #set the default path for built executables to the "bin" directory
@@ -27,13 +27,11 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 #rosbuild_gensrv()
 
 
-include_directories ("${PROJECT_SOURCE_DIR}/../TCPLibrary/Src/")
 include_directories ("${PROJECT_SOURCE_DIR}/../TCPLibrary/Inc/")
-include_directories ("${PROJECT_SOURCE_DIR}/../TCPLibrary/")
 
-add_library(TCP STATIC IMPORTED)
+add_library(TCPLibrary STATIC IMPORTED)
 #rosbuild_add_library(TCP STATIC IMPORTED)
-set_property(TARGET TCP PROPERTY IMPORTED_LOCATION ${PROJECT_SOURCE_DIR}/libTCP.a)
+set_property(TARGET TCPLibrary PROPERTY IMPORTED_LOCATION ${PROJECT_SOURCE_DIR}/libTCPLibrary.a)
 
 #common commands for building c++ executables and libraries
 #rosbuild_add_library(${PROJECT_NAME} src/example.cpp)
@@ -44,21 +42,16 @@ set_property(TARGET TCP PROPERTY IMPORTED_LOCATION ${PROJECT_SOURCE_DIR}/libTCP.
 #target_link_libraries(example ${PROJECT_NAME})
 
 # Executable
-#add_executable (Server Src/ServerMain.cpp)
-#add_executable (ClientPublisher Src/ClientPublisherMain.cpp)
-#add_executable (ClientSubscriber Src/ClientSubscriberMain.cpp)
-rosbuild_add_executable (Server Src/ServerMain.cpp)
-rosbuild_add_executable (ClientPublisher Src/ClientPublisherMain.cpp)
-rosbuild_add_executable (ClientSubscriber Src/ClientSubscriberMain.cpp)
-rosbuild_add_executable (ClientSubscriberToROSPublisher Src/ClientSubscriberToROSPublisher.cpp)
+rosbuild_add_executable (Server ../Demos/ServerMain.cpp)
+rosbuild_add_executable (Client ../Demos/ClientMain.cpp)
+rosbuild_add_executable (ClientROS ../Demos/ClientROSMain.cpp)
 
 # Link Library
-target_link_libraries (Server TCP)
-target_link_libraries (ClientPublisher TCP)
-target_link_libraries (ClientSubscriber TCP)
-target_link_libraries (ClientSubscriberToROSPublisher TCP)
+target_link_libraries (Server TCPLibrary)
+target_link_libraries (Client TCPLibrary)
+target_link_libraries (ClientROS TCPLibrary)
 
 # Add Install Targets
-install (TARGETS  Server ClientPublisher ClientSubscriber DESTINATION bin)
+install (TARGETS  Server Client ClientROS DESTINATION bin)
 
 
