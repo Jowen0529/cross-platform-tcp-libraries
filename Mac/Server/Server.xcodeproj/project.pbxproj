@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B6F76CE51946264300559AFA /* ServerMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6F76CE41946264300559AFA /* ServerMain.cpp */; };
-		B6F76CE71946275200559AFA /* libTCPLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F76CE61946275200559AFA /* libTCPLibrary.a */; };
+		B64021D81956D59600DE6841 /* libTCPLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B64021D71956D59600DE6841 /* libTCPLibrary.a */; };
+		B6DE2FDF1957448500B35A06 /* ServerMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6DE2FDE1957448500B35A06 /* ServerMain.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,9 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B64021D71956D59600DE6841 /* libTCPLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTCPLibrary.a; path = ../Build/Products/Debug/libTCPLibrary.a; sourceTree = "<group>"; };
 		B6A3C051194620CE0002384D /* Server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Server; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6F76CE41946264300559AFA /* ServerMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ServerMain.cpp; path = ../../Src/ServerMain.cpp; sourceTree = "<group>"; };
-		B6F76CE61946275200559AFA /* libTCPLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTCPLibrary.a; path = ../Build/Products/Debug/libTCPLibrary.a; sourceTree = "<group>"; };
+		B6DE2FDE1957448500B35A06 /* ServerMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ServerMain.cpp; path = ../../Demos/ServerMain.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6F76CE71946275200559AFA /* libTCPLibrary.a in Frameworks */,
+				B64021D81956D59600DE6841 /* libTCPLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,8 +44,8 @@
 		B6A3C048194620CE0002384D = {
 			isa = PBXGroup;
 			children = (
-				B6F76CE61946275200559AFA /* libTCPLibrary.a */,
-				B6F76CE41946264300559AFA /* ServerMain.cpp */,
+				B6DE2FDE1957448500B35A06 /* ServerMain.cpp */,
+				B64021D71956D59600DE6841 /* libTCPLibrary.a */,
 				B6A3C052194620CE0002384D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,7 +109,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6F76CE51946264300559AFA /* ServerMain.cpp in Sources */,
+				B6DE2FDF1957448500B35A06 /* ServerMain.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,14 +190,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				HEADER_SEARCH_PATHS = (
-					./../..TCPLibrary,
-					./../..TCPLibrary/Inc,
-				);
-				"HEADER_SEARCH_PATHS[arch=*]" = (
-					./../../TCPLibrary,
-					./../../TCPLibrary/Inc,
-				);
+				HEADER_SEARCH_PATHS = ./../..TCPLibrary/Inc;
+				"HEADER_SEARCH_PATHS[arch=*]" = ./../../TCPLibrary/Inc;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					./../Build/Products/Debug,
@@ -211,10 +205,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				HEADER_SEARCH_PATHS = ./../..TCPLibrary;
-				"HEADER_SEARCH_PATHS[arch=*]" = (
-					./../../TCPLibrary,
-					./../../TCPLibrary/Inc,
-				);
+				"HEADER_SEARCH_PATHS[arch=*]" = ./../../TCPLibrary/Inc;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					./../Build/Products/Debug,

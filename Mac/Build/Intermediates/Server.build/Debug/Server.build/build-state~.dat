@@ -1,0 +1,59 @@
+TServer
+v6
+r1
+cCheck dependencies
+cCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Server.build/Debug/Server.build/Objects-normal/x86_64/ServerMain.o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Demos/ServerMain.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c0000000052673FB9000000000000044C
+t1382498233
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531EC94300000000000001DE
+t1394526531
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000531EC9440000000000000ADC
+t1394526532
+s2780
+
+N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Demos/ServerMain.cpp
+c0000000053A676B7000000000000026A
+t1403418295
+s618
+
+N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Server.build/Debug/Server.build/Objects-normal/x86_64/ServerMain.o
+t2
+s0
+
+CBuild AST from /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Demos/ServerMain.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies284400a64457b941^676404a64457b941^---0#1#1#--18"Check dependencies36"7B4C5C69-58ED-4AC6-A97A-ADDC5AF50AD0-
+
+CCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Server.build/Debug/Server.build/Objects-normal/x86_64/ServerMain.o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Demos/ServerMain.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s425149606.017893
+e425149606.416634
+r0
+xCompileC
+x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Server.build/Debug/Server.build/Objects-normal/x86_64/ServerMain.o
+x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Demos/ServerMain.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Demos/ServerMain.cpp:10:
+o../../TCPLibrary/Inc/TCPLibrary.h:15:10: fatal error: 'WinSock2.h' file not found
+o#include <WinSock2.h>
+o         ^
+o1 error generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Demos/ServerMain.cpp282"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Server.build/Debug/Server.build/Objects-normal/x86_64/ServerMain.o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Demos/ServerMain.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler90a404a64457b941^69a76aa64457b941^-231"In file included from /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Demos/ServerMain.cpp:10:../../TCPLibrary/Inc/TCPLibrary.h:15:10: fatal error: 'WinSock2.h' file not found#include <WinSock2.h>         ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@27"'WinSock2.h' file not found-425149606#18446744073709551615#0#1(2@96"In file included from /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Demos/ServerMain.cpp:10:-425149606#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@77"file:///Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Demos/ServerMain.cpp0000000000000000^9#9#9#9#137#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@84"file:///Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/TCPLibrary/Inc/TCPLibrary.h0000000000000000^14#9#14#9#226#0#29"Lexical or Preprocessor Issue--0#0#1#-19%DVTDocumentLocation4@77"file:///Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Demos/ServerMain.cpp0000000000000000^3163"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Server.build/Debug/Server.build/Objects-normal/x86_64/ServerMain.o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Demos/ServerMain.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Server    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Server.build/Debug/Server.build/Server-generated-files.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Server.build/Debug/Server.build/Server-own-target-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Server.build/Debug/Server.build/Server-all-target-headers.hmap -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Server.build/Debug/Server.build/Server-project-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Products/Debug/include -I../../TCPLibrary/Inc -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Server.build/Debug/Server.build/DerivedSources/x86_64 -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Server.build/Debug/Server.build/DerivedSources -F/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Products/Debug -MMD -MT dependencies -MF /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Server.build/Debug/Server.build/Objects-normal/x86_64/ServerMain.d --serialize-diagnostics /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Server.build/Debug/Server.build/Objects-normal/x86_64/ServerMain.dia -c /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Demos/ServerMain.cpp -o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Server.build/Debug/Server.build/Objects-normal/x86_64/ServerMain.o36"47C5E0F9-5D76-4BA9-8449-D89911623761-
+b50BA0189-24FC-46AA-94DE-6BE3AE502C5A
+
+CLd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Products/Debug/Server normal x86_64
+r0
+
