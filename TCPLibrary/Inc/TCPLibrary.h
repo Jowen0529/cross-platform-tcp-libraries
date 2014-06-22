@@ -7,16 +7,14 @@
 // Precompiled Header for TCP Project
 //
 
+// Platform
 #include <TCPBuild.h>
-
 
 // Networking
 #if WINDOWS_PLATFORM
-
 #include <WinSock2.h>
 
 #elif LINUX_PLATFORM
-
 #include <sys/socket.h>
 #include <sys/ioctl.h>
 #include <arpa/inet.h>
@@ -26,13 +24,18 @@
 
 
 // Universal
-#define TCP_SOCKET_ERROR -1
-#define TCP_MESSAGE_ERROR -1
 #include <iostream>
 #include <string>
 #include <cstring>
 #include <memory>
 #include <list>
+
+namespace TCPLibrary
+{
+	typedef void(*CallBack)(const std::string&);
+	#define TCP_SOCKET_ERROR -1
+	#define TCP_MESSAGE_ERROR -1
+}
 
 
 // TCPLibrary

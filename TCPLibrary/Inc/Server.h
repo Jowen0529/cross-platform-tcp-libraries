@@ -9,30 +9,34 @@
 
 namespace TCPLibrary
 {
+	// Server Class
 	class Server
 	{
 	public:
 		// Server Constructor with Port, IP Address, and Node Type
-		Server(const std::string inIP, const std::string inPort);
-
+		Server();
 		// Server Destructor
-		~Server() {}
+		~Server();
 
 		// Setup Server Node
-		const int Setup();
+		const int Setup(const std::string inIP, const std::string inPort);
+		// Server Shutdown
+		const int Shutdown();
 
 		// Run Server Node
 		const int Run();
-
-		// Server Shutdown
-        const int Shutdown();
 
 		// Set Server Running
 		inline void SetIsServerRunning(const bool isInServerRunning) { isServerRunning = isInServerRunning; }
 		// Get Server Running
 		inline const bool GetIsServerRunning() const { return isServerRunning; }
 
-	private:        
+	private:     
+		// Client Implementation Class
+		class ServerImpl;
+		// Pointer to TCPSocket Implementation Class
+		std::shared_ptr<ServerImpl> mPImpl;
+
         // Socket Utility Object
         std::unique_ptr<TCPSocketUtil> mSocketUtil;
 
@@ -48,33 +52,22 @@ namespace TCPLibrary
 
 		// Server Socket
 		std::shared_ptr<TCPSocket> mServerSocket;
-
 		// Server IP Address
-		std::string mIP;
-
+		std::string mServerIP;
 		// Server Port
-		std::string mPort;
-
+		std::string mServerPort;
 		// Next Free Network ID
 		int mNextNetworkID;
-
 		// Server Status
 		bool isServerRunning;
 
         // Server To Accept New Client
 		void AcceptInitNewClient();
-        
 		// Server To Receive Message From Publisher and Send to Subscribers
 		void ReceiveMessageAndSend(std::shared_ptr<Proxy> inProxy);
-        
 		// Clean Up Any Disconnected Clients
 		void Cleanup();
-        
 		// Client Sockets Cleanup Helper
 		std::list< std::shared_ptr<Proxy> > clientsToBeRemoved;
-
-	//block:
-		// Constructor Blocked, Require Parameters
-		Server() {}
 	};
 }
