@@ -45,13 +45,14 @@ set_property(TARGET TCPLibrary PROPERTY IMPORTED_LOCATION ${PROJECT_SOURCE_DIR}/
 rosbuild_add_executable (Server ../Demos/ServerMain.cpp)
 rosbuild_add_executable (Client ../Demos/ClientMain.cpp)
 rosbuild_add_executable (ClientROS ../Demos/ClientROSMain.cpp)
+rosbuild_add_executable (ServerROS ../Demos/ServerROSMain.cpp)
 
 # Link Library
 target_link_libraries (Server TCPLibrary)
 target_link_libraries (Client TCPLibrary)
 target_link_libraries (ClientROS TCPLibrary)
+target_link_libraries (ServerROS TCPLibrary)
 
 # Add Install Targets
-install (TARGETS  Server Client ClientROS DESTINATION bin)
-
+install (TARGETS  Server Client ClientROS ServerROS DESTINATION bin)
 

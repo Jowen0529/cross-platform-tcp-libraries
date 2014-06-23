@@ -9,5 +9,21 @@
 <launch>
 
 
+	<!--arg name="ServerIP" default="127.0.0.1"/-->
+	<!--arg name="ServerPort" default="45000"/-->
+	
+
+	<!-- Launch Server -->
+	<node name="ServerROS" pkg="TCPROS" type="ServerROS"
+		output="screen" launch-prefix="roxterm --tab -n TCPROSServer -e " >
+		
+	</node>
+		
+		
+	<!-- Launch Client -->
+	<node name="ClientROS" pkg="TCPROS" type="ClientROS"
+		output="screen" launch-prefix="roxterm --tab -n TCPROSClient -e " >
+		
+	</node>
 </launch>
 
