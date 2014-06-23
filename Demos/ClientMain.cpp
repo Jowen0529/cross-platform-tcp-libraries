@@ -22,9 +22,10 @@ int main(const int argc, const char* argv[])
 	std::string ClientIP("127.0.0.1");
 	std::string ServerIP("127.0.0.1");
 	std::string ServerPort("45000");
-	//std::string ClientIP("127.0.0.1");
-	//std::string ServerIP("127.0.0.1");
-	//std::string ServerPort("45000");
+    
+	//ClientIP = std::string(argv[1]);
+    //ServerIP = std::string(argv[2]);
+    //ServerPort = std::string(argv[3]);
 
 
 	// Create Client
@@ -46,7 +47,7 @@ int main(const int argc, const char* argv[])
 	{
 		// Reset Output Message
 		std::string messageToSend;
-		std::cin >> messageToSend;
+        std::getline(std::cin, messageToSend);
 
 		// Publish Message
 		client.Publish(messageToSend);
