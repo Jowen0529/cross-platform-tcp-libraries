@@ -1,0 +1,32 @@
+﻿<!-- Created by Zachary Metcalf -->
+<!-- zachmetcalf@gmail.com -->
+
+<!-- TCPROS.launch -->
+<!-- TCPLibrary -->
+
+<!-- TCPROS Launch File -->
+
+<launch>
+
+	<arg name="ServerIP" default="127.0.0.1"/>
+	<arg name="ServerPort" default="45000"/>
+	
+	
+	<!-- Launch TCPROS Topic Listener -->
+	<node name="TCPROSListener" pkg="rostopic" type="rostopic" 
+		output="screen" args="echo /TCPROS">
+	</node>
+				
+			
+	<!-- Launch Client -->
+	<node name="ClientROS" pkg="TCPROS" type="ClientROS"
+		output="screen" required="true">
+		
+		<param name="ClientIP" value="$(arg ServerIP)" type="str"/>
+		<param name="ServerIP" value="$(arg ServerIP)" type="str"/>
+		<param name="ServerPort" value="$(arg ServerPort)" type="str"/>
+		
+	</node>
+	
+</launch>
+

@@ -1,0 +1,24 @@
+﻿<!-- Created by Zachary Metcalf -->
+<!-- zachmetcalf@gmail.com -->
+
+<!-- TCPROS.launch -->
+<!-- TCPLibrary -->
+
+<!-- TCPROS Launch File -->
+
+<launch>
+
+	<arg name="ServerIP" default="127.0.0.1"/>
+	<arg name="ServerPort" default="45000"/>
+		
+	<!-- Launch Server -->
+	<node name="ServerROS" pkg="TCPROS" type="ServerROS"
+		output="screen" required="true">
+		
+		<param name="ServerIP" value="$(arg ServerIP)" type="str"/>
+		<param name="ServerPort" value="$(arg ServerPort)" type="str"/>
+		
+	</node>
+	
+</launch>
+

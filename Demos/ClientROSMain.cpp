@@ -34,19 +34,19 @@ int main(int argc, char* argv[])
 {
 	// Setup ROS Node
 	ros::init(argc, argv, "ClientROS");
-	ros::NodeHandle nh;
+	ros::NodeHandle nh("~");
 	
 	// Setup ROS Publisher
-	publisher = nh.advertise<std_msgs::String>("TCPROS", 1000);
+	publisher = nh.advertise<std_msgs::String>("/TCPROS", 1000);
 
 	// Client Parameters
 	std::string ClientIP("127.0.0.1");
 	std::string ServerIP("127.0.0.1");
 	std::string ServerPort("45000");
 	
-	//ClientIP = std::string(argv[1]);
-	//ServerIP = std::string(argv[2]);
-	//ServerPort = std::string(Argv[3]);
+	nh.getParam("ClientIP", ClientIP);
+	nh.getParam("ServerIP", ServerIP);
+	nh.getParam("ServerPort", ServerPort);
 
 
 	// Create Client
@@ -100,3 +100,4 @@ int main(int argc, char* argv[])
 	client.Shutdown();
 	return 0;
 }
+

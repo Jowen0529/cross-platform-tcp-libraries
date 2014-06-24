@@ -26,12 +26,8 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 #uncomment if you have defined services
 #rosbuild_gensrv()
 
-
 include_directories ("${PROJECT_SOURCE_DIR}/../TCPLibrary/Inc/")
 
-add_library(TCPLibrary STATIC IMPORTED)
-#rosbuild_add_library(TCP STATIC IMPORTED)
-set_property(TARGET TCPLibrary PROPERTY IMPORTED_LOCATION ${PROJECT_SOURCE_DIR}/libTCPLibrary.a)
 
 #common commands for building c++ executables and libraries
 #rosbuild_add_library(${PROJECT_NAME} src/example.cpp)
@@ -40,6 +36,10 @@ set_property(TARGET TCPLibrary PROPERTY IMPORTED_LOCATION ${PROJECT_SOURCE_DIR}/
 #rosbuild_link_boost(${PROJECT_NAME} thread)
 #rosbuild_add_executable(example examples/example.cpp)
 #target_link_libraries(example ${PROJECT_NAME})
+
+add_library(TCPLibrary STATIC IMPORTED)
+set_property(TARGET TCPLibrary PROPERTY IMPORTED_LOCATION ${PROJECT_SOURCE_DIR}/libTCPLibrary.a)
+
 
 # Executable
 rosbuild_add_executable (Server ../Demos/ServerMain.cpp)
