@@ -1,0 +1,348 @@
+TTCPLibrary
+v6
+r1
+cCheck dependencies
+cCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketUtilLinux.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketUtilLinux.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Proxy.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Proxy.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketCross.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketCross.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketLinux.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Server.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Server.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Client.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Client.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPLibrary.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPLibrary.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketUtilCross.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketUtilCross.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug/libTCPLibrary.a normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c0000000053480E7500000000000000AA
+t1397231221
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c0000000052673FB9000000000000044C
+t1382498233
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531EC94300000000000001DE
+t1394526531
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000531EC9440000000000000ADC
+t1394526532
+s2780
+
+N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Client.o
+t1403660038
+s298568
+
+N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Proxy.o
+t1403660038
+s45468
+
+N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Server.o
+t1403660038
+s304304
+
+N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPLibrary.LinkFileList
+c0000000053AA26FE00000000000004BB
+t1403660030
+s1211
+
+N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPLibrary.o
+t1403660037
+s2096
+
+N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketCross.o
+t1403660037
+s2104
+
+N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketLinux.o
+t1403660038
+s133640
+
+N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketUtilCross.o
+t1403660038
+s83568
+
+N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketUtilLinux.o
+t1403660038
+s84880
+
+N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug/libTCPLibrary.a
+t2
+s0
+
+N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Client.cpp
+c0000000053A915D200000000000012AA
+t1403590098
+s4778
+
+N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Proxy.cpp
+c0000000053A670F20000000000000208
+t1403416818
+s520
+
+N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Server.cpp
+c0000000053A687D7000000000000183A
+t1403422679
+s6202
+
+N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPLibrary.cpp
+c000000005396A9DA00000000000000CD
+t1402382810
+s205
+
+N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketCross.cpp
+c0000000053A46C6600000000000000D2
+t1403284582
+s210
+
+N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp
+c0000000053A672000000000000001D98
+t1403417088
+s7576
+
+N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketUtilCross.cpp
+c0000000053A326AC00000000000003F4
+t1403201196
+s1012
+
+N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketUtilLinux.cpp
+c0000000053A6729D0000000000000BA3
+t1403417245
+s2979
+
+CBuild AST from /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Client.cpp
+r0
+
+CBuild AST from /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Proxy.cpp
+r0
+
+CBuild AST from /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Server.cpp
+r0
+
+CBuild AST from /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPLibrary.cpp
+r0
+
+CBuild AST from /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketCross.cpp
+r0
+
+CBuild AST from /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp
+r0
+
+CBuild AST from /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketUtilCross.cpp
+r0
+
+CBuild AST from /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketUtilLinux.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies9fe7e37d5e5ab941^6b809e7e5e5ab941^---0#1#1#--18"Check dependencies36"92816279-E0E2-45DC-AC0B-B70B4970A4AB-
+
+CCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Client.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Client.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s425352830.627334
+e425352838.483816
+r1
+xCompileC
+x/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Client.o
+x/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Client.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Client.cpp
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPLibrary.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPBuild.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPSocket.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPSocketUtil.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Proxy.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Server.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Client.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Client.cpp289"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Client.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Client.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler0cafa07e5e5ab941^09df7b865e5ab941^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Client.cpp0000000000000000^3237"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Client.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Client.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/TCPLibrary    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-generated-files.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-own-target-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-all-target-headers.hmap -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-project-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug/include -I../../TCPLibrary/Inc -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/DerivedSources/x86_64 -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/DerivedSources -F/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug -MMD -MT dependencies -MF /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Client.d --serialize-diagnostics /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Client.dia -c /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Client.cpp -o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Client.o36"9F4CC757-E593-47DC-944E-3B0A4F33244D-
+b66BB3394-70AE-4730-ACBC-339CC7677230
+
+CCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Proxy.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Proxy.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s425352830.625666
+e425352838.366706
+r1
+xCompileC
+x/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Proxy.o
+x/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Proxy.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Proxy.cpp
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPLibrary.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPBuild.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPSocket.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPSocketUtil.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Proxy.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Server.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Client.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Proxy.cpp287"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Proxy.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Proxy.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerf65ea07e5e5ab941^58e65d865e5ab941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Proxy.cpp0000000000000000^3231"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Proxy.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Proxy.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/TCPLibrary    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-generated-files.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-own-target-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-all-target-headers.hmap -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-project-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug/include -I../../TCPLibrary/Inc -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/DerivedSources/x86_64 -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/DerivedSources -F/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug -MMD -MT dependencies -MF /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Proxy.d --serialize-diagnostics /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Proxy.dia -c /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Proxy.cpp -o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Proxy.o36"0DE1FFFB-D7DC-4544-9CCC-28BC457E9193-
+b66BB3394-70AE-4730-ACBC-339CC7677230
+
+CCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Server.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Server.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s425352830.626806
+e425352838.550587
+r1
+xCompileC
+x/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Server.o
+x/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Server.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Server.cpp
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPLibrary.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPBuild.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPSocket.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPSocketUtil.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Proxy.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Server.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Client.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Server.cpp289"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Server.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Server.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilere690a07e5e5ab941^c02491865e5ab941^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Server.cpp0000000000000000^3237"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Server.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Server.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/TCPLibrary    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-generated-files.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-own-target-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-all-target-headers.hmap -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-project-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug/include -I../../TCPLibrary/Inc -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/DerivedSources/x86_64 -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/DerivedSources -F/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug -MMD -MT dependencies -MF /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Server.d --serialize-diagnostics /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Server.dia -c /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/Server.cpp -o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/Server.o36"8347A631-DB0E-45A7-A3A9-871A7DBF27BF-
+b66BB3394-70AE-4730-ACBC-339CC7677230
+
+CCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPLibrary.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPLibrary.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s425352830.627740
+e425352837.854504
+r1
+xCompileC
+x/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPLibrary.o
+x/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPLibrary.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPLibrary.cpp
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPLibrary.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPBuild.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPSocket.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPSocketUtil.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Proxy.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Server.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Client.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPLibrary.cpp297"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPLibrary.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPLibrary.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler8acca07e5e5ab941^62c0da855e5ab941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPLibrary.cpp0000000000000000^3261"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPLibrary.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPLibrary.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/TCPLibrary    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-generated-files.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-own-target-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-all-target-headers.hmap -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-project-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug/include -I../../TCPLibrary/Inc -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/DerivedSources/x86_64 -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/DerivedSources -F/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug -MMD -MT dependencies -MF /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPLibrary.d --serialize-diagnostics /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPLibrary.dia -c /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPLibrary.cpp -o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPLibrary.o36"97A69A2D-8684-4BD5-80DC-A84B2641732E-
+b66BB3394-70AE-4730-ACBC-339CC7677230
+
+CCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketCross.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketCross.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s425352830.626026
+e425352837.854843
+r1
+xCompileC
+x/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketCross.o
+x/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketCross.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketCross.cpp
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPLibrary.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPBuild.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPSocket.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPSocketUtil.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Proxy.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Server.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Client.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketCross.cpp305"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketCross.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketCross.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler0360a07e5e5ab941^fed6da855e5ab941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketCross.cpp0000000000000000^3285"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketCross.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketCross.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/TCPLibrary    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-generated-files.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-own-target-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-all-target-headers.hmap -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-project-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug/include -I../../TCPLibrary/Inc -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/DerivedSources/x86_64 -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/DerivedSources -F/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug -MMD -MT dependencies -MF /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketCross.d --serialize-diagnostics /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketCross.dia -c /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketCross.cpp -o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketCross.o36"C0287C0F-9C6D-429D-8D66-C82493A5110D-
+b66BB3394-70AE-4730-ACBC-339CC7677230
+
+CCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketLinux.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s425352830.626469
+e425352838.369226
+r1
+xCompileC
+x/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketLinux.o
+x/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPLibrary.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPBuild.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPSocket.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPSocketUtil.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Proxy.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Server.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Client.h
+o/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp:157:21: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+o                int messageSize = strlen(inMessage.c_str());
+o                    ~~~~~~~~~~~   ^~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp:158:18: warning: implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]
+o                int sizeSent = send(mSocket, reinterpret_cast<const char*>(&messageSize), sizeof(messageSize), mMessageFlags);
+o                    ~~~~~~~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp:166:22: warning: implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]
+o                int dataSizeSent = send(mSocket, inMessage.c_str(), strlen(inMessage.c_str()), mMessageFlags);
+o                    ~~~~~~~~~~~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp:177:18: warning: implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]
+o                int sizeRecv = recv(mSocket, reinterpret_cast<char*>(&messageSize), sizeof(messageSize), mMessageFlags);
+o                    ~~~~~~~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp:187:10: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'const int' [-Wshorten-64-to-32]
+o                return dataSizeRecv;
+o                ~~~~~~ ^~~~~~~~~~~~
+o5 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp305"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketLinux.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler8f8da07e5e5ab941^88855e865e5ab941^-1933"/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp:157:21: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]                int messageSize = strlen(inMessage.c_str());                    ~~~~~~~~~~~   ^~~~~~~~~~~~~~~~~~~~~~~~~/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp:158:18: warning: implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]                int sizeSent = send(mSocket, reinterpret_cast<const char*>(&messageSize), sizeof(messageSize), mMessageFlags);                    ~~~~~~~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp:166:22: warning: implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]                int dataSizeSent = send(mSocket, inMessage.c_str(), strlen(inMessage.c_str()), mMessageFlags);                    ~~~~~~~~~~~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp:177:18: warning: implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]                int sizeRecv = recv(mSocket, reinterpret_cast<char*>(&messageSize), sizeof(messageSize), mMessageFlags);                    ~~~~~~~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp:187:10: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'const int' [-Wshorten-64-to-32]                return dataSizeRecv;                ~~~~~~ ^~~~~~~~~~~~5 warnings generated.5(36%IDEClangDiagnosticActivityLogMessage2@84"Implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int'-425352838#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@87"file:///Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp0000000000000000^156#20#156#20#4994#0#22"Value Conversion Issue2(3@87"file:///Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp0000000000000000^156#20#156#45#4994#24#3@87"file:///Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp0000000000000000^156#6#156#17#4980#0#-2@76"Implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'-425352838#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@87"file:///Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp0000000000000000^157#17#157#17#5039#0#22"Value Conversion Issue2(3@87"file:///Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp0000000000000000^157#17#157#111#5039#93#3@87"file:///Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp0000000000000000^157#6#157#14#5028#0#-2@76"Implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'-425352838#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@87"file:///Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp0000000000000000^165#21#165#21#5360#0#22"Value Conversion Issue2(3@87"file:///Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp0000000000000000^165#21#165#95#5360#73#3@87"file:///Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp0000000000000000^165#6#165#18#5345#0#-2@76"Implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'-425352838#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@87"file:///Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp0000000000000000^176#17#176#17#5779#0#22"Value Conversion Issue2(3@87"file:///Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp0000000000000000^176#17#176#105#5779#87#3@87"file:///Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp0000000000000000^176#6#176#14#5768#0#-2@90"Implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'const int'-425352838#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@87"file:///Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp0000000000000000^186#9#186#9#6204#0#22"Value Conversion Issue2(3@87"file:///Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp0000000000000000^186#9#186#21#6204#0#3@87"file:///Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp0000000000000000^186#2#186#8#6197#0#-0#0#1#-19%DVTDocumentLocation4@87"file:///Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp0000000000000000^3285"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketLinux.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/TCPLibrary    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-generated-files.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-own-target-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-all-target-headers.hmap -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-project-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug/include -I../../TCPLibrary/Inc -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/DerivedSources/x86_64 -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/DerivedSources -F/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug -MMD -MT dependencies -MF /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketLinux.d --serialize-diagnostics /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketLinux.dia -c /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketLinux.cpp -o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketLinux.o36"2C32576B-BF4C-42E1-96C8-83D2290F649B-
+b66BB3394-70AE-4730-ACBC-339CC7677230
+
+CCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketUtilCross.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketUtilCross.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s425352830.628052
+e425352838.366443
+r1
+xCompileC
+x/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketUtilCross.o
+x/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketUtilCross.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketUtilCross.cpp
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPLibrary.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPBuild.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPSocket.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPSocketUtil.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Proxy.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Server.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Client.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketUtilCross.cpp313"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketUtilCross.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketUtilCross.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerd7dda07e5e5ab941^55df5d865e5ab941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketUtilCross.cpp0000000000000000^3309"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketUtilCross.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketUtilCross.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/TCPLibrary    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-generated-files.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-own-target-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-all-target-headers.hmap -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-project-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug/include -I../../TCPLibrary/Inc -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/DerivedSources/x86_64 -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/DerivedSources -F/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug -MMD -MT dependencies -MF /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketUtilCross.d --serialize-diagnostics /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketUtilCross.dia -c /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketUtilCross.cpp -o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketUtilCross.o36"8545A9FC-5EEB-4DBF-B85B-D0B1FCE51BBC-
+b66BB3394-70AE-4730-ACBC-339CC7677230
+
+CCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketUtilLinux.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketUtilLinux.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s425352830.625361
+e425352838.366437
+r1
+xCompileC
+x/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketUtilLinux.o
+x/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketUtilLinux.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketUtilLinux.cpp
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPLibrary.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPBuild.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPSocket.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPSocketUtil.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Proxy.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Server.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Client.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketUtilLinux.cpp313"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketUtilLinux.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketUtilLinux.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerd95da07e5e5ab941^96cc5d865e5ab941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketUtilLinux.cpp0000000000000000^3309"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketUtilLinux.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketUtilLinux.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/TCPLibrary    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-generated-files.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-own-target-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-all-target-headers.hmap -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/TCPLibrary-project-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug/include -I../../TCPLibrary/Inc -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/DerivedSources/x86_64 -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/DerivedSources -F/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug -MMD -MT dependencies -MF /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketUtilLinux.d --serialize-diagnostics /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketUtilLinux.dia -c /Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Src/TCPSocketUtilLinux.cpp -o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketUtilLinux.o36"F4115DC8-3388-413C-9868-D9EDEE582DB7-
+b66BB3394-70AE-4730-ACBC-339CC7677230
+
+CLibtool /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug/libTCPLibrary.a normal x86_64
+s425352838.551607
+e425352839.099945
+r1
+xLibtool
+x/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug/libTCPLibrary.a
+xnormal
+xx86_64
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketCross.o has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPLibrary.o has no symbols
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Libtool /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug/libTCPLibrary.a normal x86_64113"Libtool /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug/libTCPLibrary.a normal x86_64234c8d865e5ab941^73301f875e5ab941^-538"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPSocketCross.o has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPLibrary.o has no symbols-0#0#1#--808"Libtool /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug/libTCPLibrary.a normal x86_64    cd /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/TCPLibrary    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug -filelist /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Intermediates/TCPLibrary.build/Debug/TCPLibrary.build/Objects-normal/x86_64/TCPLibrary.LinkFileList -o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/MacObjC/Build/Products/Debug/libTCPLibrary.a36"F2757638-99EF-4A2D-BDE0-2CF8EA0BFD18-
+b66BB3394-70AE-4730-ACBC-339CC7677230
+
