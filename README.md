@@ -1,11 +1,9 @@
 cross-platform-tcp-libraries
 ============================
 
-Cross-Platform TCP Libraries for Large Scale Client-Server Messaging System (C++11)
+Cross-Platform TCP/IPv4 Libraries for Large Scale Client-Server Messaging (C++11)
 	
-	• Static Libraries—IPv4 Sockets via WinSock2 & Sys/Socket Precompiled Headers
-	• Library Features—Memory-Managed, Buffer Overflow Prevention, Multi-Threaded Classes
-	• Special Features—C# Dynamic Library with CLI Native Bridge, Customizable Callbacks
+	• Static Libraries—Sockets via WinSock2 (Windows) & Sys/Socket (Linux) Precompiled Headers
+	• Library Features—Managed Memory & Buffers, Customizable Callbacks, Multi-Threading
+	• Special Features—C#/CLI Dynamic Library for Windows, Objective-C++ for Mac & iOS
 	• Public Repository—http://www.github.com/zachmetcalf/cross-platform-tcp-libraries
-
-
