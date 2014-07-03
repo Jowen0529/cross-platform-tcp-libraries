@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>69D94A45-FF57-424C-A96B-3E7D5477CB90</string>
+	<string>FD9200ED-7F5D-434F-997D-F1D2D9BEBE6E</string>
 	<key>IDESourceControlProjectName</key>
 	<string>TCPMacObjC</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D22D9883-2BC8-4A7D-89B0-8EFE4E7A8315</key>
+		<key>6DAC939E-6647-47F1-8881-E9880307B58A</key>
 		<string>https://github.com/zachmetcalf/cross-platform-tcp-libraries.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>MacObjC/TCPMacObjC.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D22D9883-2BC8-4A7D-89B0-8EFE4E7A8315</key>
+		<key>6DAC939E-6647-47F1-8881-E9880307B58A</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D22D9883-2BC8-4A7D-89B0-8EFE4E7A8315</string>
+	<string>6DAC939E-6647-47F1-8881-E9880307B58A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D22D9883-2BC8-4A7D-89B0-8EFE4E7A8315</string>
+			<string>6DAC939E-6647-47F1-8881-E9880307B58A</string>
 			<key>IDESourceControlWCCName</key>
 			<string>TCPLibraries</string>
 		</dict>

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B64021D61956D55800DE6841 /* libTCPLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B64021D51956D55800DE6841 /* libTCPLibrary.a */; };
-		B6DE2FDD1957447000B35A06 /* ClientMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6DE2FDC1957447000B35A06 /* ClientMain.cpp */; };
+		B6C2382A1956D30A00E20E43 /* ClientMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6C238291956D30A00E20E43 /* ClientMain.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +26,7 @@
 /* Begin PBXFileReference section */
 		B64021D51956D55800DE6841 /* libTCPLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTCPLibrary.a; path = ../Build/Products/Debug/libTCPLibrary.a; sourceTree = "<group>"; };
 		B651D82F1952B48700C68BC8 /* Client */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Client; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6DE2FDC1957447000B35A06 /* ClientMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientMain.cpp; path = ../../Demos/ClientMain.cpp; sourceTree = "<group>"; };
+		B6C238291956D30A00E20E43 /* ClientMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientMain.cpp; path = ../../Demos/ClientMain.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +44,8 @@
 		B651D8261952B48700C68BC8 = {
 			isa = PBXGroup;
 			children = (
-				B6DE2FDC1957447000B35A06 /* ClientMain.cpp */,
 				B64021D51956D55800DE6841 /* libTCPLibrary.a */,
+				B6C238291956D30A00E20E43 /* ClientMain.cpp */,
 				B651D8301952B48700C68BC8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,7 +109,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6DE2FDD1957447000B35A06 /* ClientMain.cpp in Sources */,
+				B6C2382A1956D30A00E20E43 /* ClientMain.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

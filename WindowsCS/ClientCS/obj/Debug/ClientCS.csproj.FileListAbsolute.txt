@@ -10,10 +10,10 @@ E:\Dropbox\Cross\TCPSource\WindowsCS\ClientCS\Debug\TCPLibraryCS.pdb
 E:\Dropbox\Cross\TCPSource\WindowsCS\ClientCS\obj\Debug\ClientCS.csprojResolveAssemblyReference.cache
 E:\Dropbox\Cross\TCPSource\WindowsCS\ClientCS\obj\Debug\ClientCS.exe
 E:\Dropbox\Cross\TCPSource\WindowsCS\ClientCS\obj\Debug\ClientCS.pdb
+E:\Dropbox\Cross\TCPLibraries\WindowsCS\ClientCS\obj\Debug\ClientCS.csprojResolveAssemblyReference.cache
 E:\Dropbox\Cross\TCPLibraries\WindowsCS\ClientCS\Debug\ClientCS.exe
 E:\Dropbox\Cross\TCPLibraries\WindowsCS\ClientCS\Debug\ClientCS.pdb
 E:\Dropbox\Cross\TCPLibraries\WindowsCS\ClientCS\Debug\TCPLibraryCS.dll
 E:\Dropbox\Cross\TCPLibraries\WindowsCS\ClientCS\Debug\TCPLibraryCS.pdb
-E:\Dropbox\Cross\TCPLibraries\WindowsCS\ClientCS\obj\Debug\ClientCS.csprojResolveAssemblyReference.cache
 E:\Dropbox\Cross\TCPLibraries\WindowsCS\ClientCS\obj\Debug\ClientCS.exe
 E:\Dropbox\Cross\TCPLibraries\WindowsCS\ClientCS\obj\Debug\ClientCS.pdb

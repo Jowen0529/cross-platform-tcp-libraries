@@ -1,4 +1,2 @@
-703eb40b98984f3fe79cc5ecd97999af fa5c05c7a13ea26b8d80464c647a1ac6 ffffffffffffffffffffffffffffffff 118760 /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Products/Debug/Client
-ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 116536 /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/ClientMain.o
-000000000179f694000000000004d56a 79de897a66bd6a8530a2a98402bb4253 ffffffffffffffffffffffffffffffff 118752 /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Products/Debug/Client
-0000000001c1bc9f0000000000000995 802f5f3dc291bd5adb4f81a3adc1911c ffffffffffffffffffffffffffffffff 116536 /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/ClientMain.o
+703eb40b988a013ce79cc5ecd9788d6d fa5c05c7a13ea26b8d80464c647a1ac6 ffffffffffffffffffffffffffffffff 0 /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Products/Debug/Client
+0000000001d345d9000000000000099f 703eb40bca11f81de79cc5ecd9777a7d ffffffffffffffffffffffffffffffff 102488 /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/ClientMain.o

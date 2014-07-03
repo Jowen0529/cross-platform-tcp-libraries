@@ -28,43 +28,40 @@ namespace Client
         static void Main(string[] args)
         {
             // Client Parameters
-            String ClientIP = "127.0.0.1";
             String ServerIP = "127.0.0.1";
             String ServerPort = "45000";
+
+            // Demo Parameters
+            //ServerIP = "127.0.0.1";
 
 
             // Create Client
             TCPLibraryCS.ClientCS client = new TCPLibraryCS.ClientCS();
-            client.Setup(ClientIP, ServerIP, ServerPort);
+            client.Setup(ServerIP, ServerPort);
 
-
-
-            // Client Subscriber and Default CallBack
+            // Run Client Subscriber Automatically on Separate Thread
+            // Run with Default CallBack
             //client.Subscribe(null);
-            // Client Subscriber and Custom CallBack
+            // Run with Custom CallBack
             TCPLibraryCS.CallBackCS callBack = SubscriberCallback;
             client.Subscribe(callBack);
-            // Client Subscriber with No Publisher
+            // Run with No Publisher
             //while (client.GetIsClientRunning()) {}
 
-
-
-
+            // Client Publisher
             while (client.GetIsClientRunning())
             {   
                 String message = Console.ReadLine();
-
                 client.Publish(message);
             }
 
-
             
             /*
-            // Standard Way to Subscribe to Messages
+            // Run Client Subscriber Manually
             while (client.GetIsClientRunning())
             {
                 String message = "";
-                client.Subscribe(ref message);
+                client.SubscribeOnce(ref message);
 
                 if (message.Length > 0)
                 {

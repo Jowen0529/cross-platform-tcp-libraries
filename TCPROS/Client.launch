@@ -22,7 +22,6 @@
 	<node name="ClientROS" pkg="TCPROS" type="ClientROS"
 		output="screen" required="true">
 		
-		<param name="ClientIP" value="$(arg ServerIP)" type="str"/>
 		<param name="ServerIP" value="$(arg ServerIP)" type="str"/>
 		<param name="ServerPort" value="$(arg ServerPort)" type="str"/>
 		

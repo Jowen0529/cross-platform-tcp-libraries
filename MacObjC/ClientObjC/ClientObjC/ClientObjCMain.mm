@@ -7,7 +7,6 @@
 // Main for ClientObjCTCP
 //
 
-#import <Foundation/Foundation.h>
 #include <TCPLibrary.h>
 
 // CallBack Function for Client Subscriber
@@ -17,61 +16,58 @@ void SubscriberCallback(const std::string& inString)
 }
 
 // Main
-int main(int argc, const char * argv[])
+int main(int argc, const char* argv[])
 {
     @autoreleasepool
     {
         // Client Parameters
-        std::string ClientIP("127.0.0.1");
         std::string ServerIP("127.0.0.1");
         std::string ServerPort("45000");
         
-        //ClientIP = std::string(argv[1]);
-        //ServerIP = std::string(argv[2]);
-        //ServerPort = std::string(argv[3]);
+        // Demo Parameters
+        //ServerIP = std::string("10.120.68.14");
         
         
         // Create Client
-        TCPLibrary::Client client;
-        client.Setup(ClientIP, ServerIP, ServerPort);
+        TCPLibrary::Client* client = new TCPLibrary::Client();
+        client->Setup(ServerIP, ServerPort);
         
         
-        // Client Subscriber and Default CallBack
-        //client.Subscribe(nullptr);
-        // Client Subscriber and Custom CallBack
+        // Client Subscriber Automatically on Separate Thread
+        // Run with Default CallBack
+        //client->Subscribe(nullptr);
+        // Run with Custom CallBack
         TCPLibrary::CallBack callBack = &SubscriberCallback;
-        client.Subscribe(callBack);
-        // Client Subscriber with No Publisher
-        //while (client.GetIsClientRunning()) {}
+        client->Subscribe(callBack);
+        // Run with No Publisher
+        //while (client->GetIsClientRunning()) {}
         
         
         // Client Publisher
-        while (client.GetIsClientRunning())
+        while (client->GetIsClientRunning())
         {
             // Reset Output Message
             std::string messageToSend;
             std::getline(std::cin, messageToSend);
             
             // Publish Message
-            client.Publish(messageToSend);
+            client->Publish(messageToSend);
             
-            if (messageToSend == std::string("quit")) { client.SetIsClientRunning(false); }
+            if (messageToSend == std::string("quit")) { client->SetIsClientRunning(false); }
         }
         
         
-        // Client Subscriber
+        // Run Client Subscriber Manually
         /*
          while (client.GetIsClientRunning())
          {
          // Reset Input Message
          std::string messageToReceive;
-         
          // Subscribe to Message
-         client.Subscribe(messageToReceive);
+         client.SubscribeOnce(messageToReceive);
          if (messageToReceive.size())
          {
          std::cout << messageToReceive << std::endl;
-         
          if(messageToReceive == std::string("quit")) { client.SetIsClientRunning(false); }
          }
          }
@@ -79,7 +75,8 @@ int main(int argc, const char * argv[])
         
         
         // Shutdown Client
-        client.Shutdown();
+        client->Shutdown();
+        return 0;
     }
     return 0;
 }

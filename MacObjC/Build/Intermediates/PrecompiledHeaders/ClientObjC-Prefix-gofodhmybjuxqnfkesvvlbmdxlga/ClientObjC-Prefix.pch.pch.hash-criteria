@@ -1,0 +1,28 @@
+Contents of /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/MacObjC/ClientObjC/ClientObjC/ClientObjC-Prefix.pch
+-x
+objective-c++
+-arch
+x86_64
+-std=gnu++11
+-stdlib=libc++
+-fobjc-arc
+-fmodules
+-fmodules-cache-path=/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/MacObjC/Build/ModuleCache
+-fpascal-strings
+-O0
+-DDEBUG=1
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+-fasm-blocks
+-mmacosx-version-min=10.9
+-g
+-fvisibility-inlines-hidden
+-iquote
+-iquote
+-I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/MacObjC/Build/Products/Debug/include
+-I../../TCPLibrary/Inc
+-F/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/MacObjC/Build/Products/Debug
+x86_64-apple-darwin13.3.0
+"4.2.1 Compatible Apple LLVM 5.1 (clang-503.0.40)"
+SDK_PRODUCT_BUILD_VERSION=13C64
+13C64

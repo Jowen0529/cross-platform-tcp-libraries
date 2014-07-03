@@ -20,295 +20,65 @@ c00000000531EC94300000000000001DE
 t1394526531
 s478
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
-c00000000531EC944000000000000681C
-t1394526532
-s26652
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
-c0000000052673FC4000000000006E8B0
-t1382498244
-s452784
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
-c0000000052673FC40000000000004734
-t1382498244
-s18228
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
-c0000000052673FC4000000000000FC6C
-t1382498244
-s64620
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
-c0000000052673FC4000000000000F6A0
-t1382498244
-s63136
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
-c0000000052673FC40000000000006254
-t1382498244
-s25172
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
-c0000000052673FC4000000000000E0F8
-t1382498244
-s57592
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
-c00000000531EC944000000000000D6DC
-t1394526532
-s55004
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
-c00000000531EC9440000000000006308
-t1394526532
-s25352
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
-c0000000052673FC40000000000004050
-t1382498244
-s16464
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
-c00000000531EC9440000000000008570
-t1394526532
-s34160
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
-c0000000052673FC40000000000005EA0
-t1382498244
-s24224
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
-c0000000052673FC40000000000005FAC
-t1382498244
-s24492
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
-c0000000052673FC40000000000004440
-t1382498244
-s17472
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
-c0000000052673FC4000000000000AA28
-t1382498244
-s43560
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
-c0000000052673FC40000000000003E2C
-t1382498244
-s15916
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
-c00000000531EC9440000000000030B04
-t1394526532
-s199428
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
-c00000000531EC9440000000000005E54
-t1394526532
-s24148
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
-c00000000531EC9440000000000006A90
-t1394526532
-s27280
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
-c0000000052673FC400000000000178AC
-t1382498244
-s96428
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
-c00000000531EC944000000000001ADC8
-t1394526532
-s110024
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
-c0000000052673FC4000000000001028C
-t1382498244
-s66188
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
-c00000000531EC9440000000000008800
-t1394526532
-s34816
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
-c0000000052673FC40000000000011090
-t1382498244
-s69776
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
-c0000000052673FC4000000000000882C
-t1382498244
-s34860
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
-c00000000531EC94400000000000067AC
-t1394526532
-s26540
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
-c0000000052673FC40000000000008DEC
-t1382498244
-s36332
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
-c00000000531EC9440000000000004C08
-t1394526532
-s19464
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
-c00000000531EC9440000000000002428
-t1394526532
-s9256
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
-c0000000052673FC4000000000000439C
-t1382498244
-s17308
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
-c0000000052673FC40000000000006768
-t1382498244
-s26472
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
-c00000000531EC94400000000000172F4
-t1394526532
-s94964
-
 N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
 c00000000531EC9440000000000000ADC
 t1394526532
 s2780
 
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
-c0000000053480E610000000000001770
-t1397231201
-s6000
-
 N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Demos/ClientMain.cpp
-c0000000053A6832100000000000006DB
-t1403421473
-s1755
+c0000000053B47A6700000000000006D1
+t1404336743
+s1745
 
 N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/Client.LinkFileList
-c0000000053A70CDF000000000000008D
-t1403456735
+c0000000053B4D734000000000000008D
+t1404360500
 s141
 
 N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/ClientMain.o
-t1403428693
-s116536
+t1404360501
+s102488
 
 N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Products/Debug/Client
-t1403456735
-s118760
+t2
+s0
 
 N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Products/Debug/libTCPLibrary.a
-c0000000053A7091700000000000EEA60
-t1403455767
-s977504
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/Demos/ClientMain.cpp
-c0000000053A6832100000000000006DB
-t1403421473
-s1755
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/Client.LinkFileList
-c0000000053A69F55000000000000008A
-t1403428693
-s138
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/ClientMain.o
-t1403428693
-s116536
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Products/Debug/Client
-t1403453606
-s118752
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Products/Debug/libTCPLibrary.a
-c0000000053A7091700000000000EEA60
-t1403455767
-s977504
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Client.h
-c0000000053A672BA000000000000061B
-t1403417274
-s1563
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Proxy.h
-c0000000053A670F70000000000000396
-t1403416823
-s918
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Server.h
-c0000000053A686DD000000000000072E
-t1403422429
-s1838
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPBuild.h
-c0000000053A69A4E00000000000000BF
-t1403427406
-s191
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPLibrary.h
-c0000000053A6666E00000000000002F1
-t1403414126
-s753
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPSocket.h
-c0000000053A6719C000000000000070E
-t1403416988
-s1806
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPSocketUtil.h
-c0000000053A672770000000000000609
-t1403417207
-s1545
+c0000000053B465B900000000000FFEA8
+t1404331449
+s1048232
 
 CBuild AST from /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Demos/ClientMain.cpp
 r0
 
-CBuild AST from /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Demos/ClientMain.cpp
-r0
-
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies878b38f14457b941^2ae238f14457b941^---0#1#1#--18"Check dependencies36"1DD3227A-9264-486A-8D09-06158C9EDBB2-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies0c3ca3b40e65b941^5533a7b40e65b941^---0#1#1#--18"Check dependencies36"38AB82AE-D6AB-4F5E-A234-0D6DDB5E28AC-
 
 CCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/ClientMain.o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Demos/ClientMain.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/ClientMain.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Demos/ClientMain.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s425121493.244571
-e425121493.715384
+s426053300.653666
+e426053301.124211
 r1
 xCompileC
-x/Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/ClientMain.o
-x/Users/zachary/Desktop/Dropbox/Cross/TCPSource/Demos/ClientMain.cpp
+x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/ClientMain.o
+x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Demos/ClientMain.cpp
 xnormal
 xx86_64
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/Demos/ClientMain.cpp
-d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPLibrary.h
-d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPBuild.h
-d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPSocket.h
-d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/TCPSocketUtil.h
-d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Proxy.h
-d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Server.h
-d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/TCPLibrary/Inc/Client.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Demos/ClientMain.cpp276"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/ClientMain.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Demos/ClientMain.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerbdab3ed5d656b941^5b26b7d5d656b941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/zachary/Desktop/Dropbox/Cross/TCPSource/Demos/ClientMain.cpp0000000000000000^3115"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/ClientMain.o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Demos/ClientMain.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Client    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Intermediates/Client.build/Debug/Client.build/Client-generated-files.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Intermediates/Client.build/Debug/Client.build/Client-own-target-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Intermediates/Client.build/Debug/Client.build/Client-all-target-headers.hmap -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Intermediates/Client.build/Debug/Client.build/Client-project-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Products/Debug/include -I../../TCPLibrary/Inc -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Intermediates/Client.build/Debug/Client.build/DerivedSources/x86_64 -I/Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Intermediates/Client.build/Debug/Client.build/DerivedSources -F/Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Products/Debug -MMD -MT dependencies -MF /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/ClientMain.d --serialize-diagnostics /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/ClientMain.dia -c /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Demos/ClientMain.cpp -o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/ClientMain.o36"346C12C5-4916-4B68-87EA-520F4B5F9E9C-
-b201E3281-586B-4F59-940E-B132FF8D9316
+d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Demos/ClientMain.cpp
+d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/TCPLibrary/Inc/TCPLibrary.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/TCPLibrary/Inc/TCPSocket.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/TCPLibrary/Inc/TCPSocketUtil.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/TCPLibrary/Inc/Proxy.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/TCPLibrary/Inc/Server.h
+d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/TCPLibrary/Inc/Client.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Demos/ClientMain.cpp282"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/ClientMain.o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Demos/ClientMain.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerb96da7b40e65b941^74ce1fb50e65b941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Demos/ClientMain.cpp0000000000000000^3163"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/ClientMain.o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Demos/ClientMain.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Client    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Client.build/Debug/Client.build/Client-generated-files.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Client.build/Debug/Client.build/Client-own-target-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Client.build/Debug/Client.build/Client-all-target-headers.hmap -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Client.build/Debug/Client.build/Client-project-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Products/Debug/include -I../../TCPLibrary/Inc -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Client.build/Debug/Client.build/DerivedSources/x86_64 -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Client.build/Debug/Client.build/DerivedSources -F/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Products/Debug -MMD -MT dependencies -MF /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/ClientMain.d --serialize-diagnostics /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/ClientMain.dia -c /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Demos/ClientMain.cpp -o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/ClientMain.o36"90F9FAFA-203B-443B-B275-B50C73297278-
+b2511C0AE-CF4F-433E-BB5B-5FBAD08C36E8
 
 CLd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Products/Debug/Client normal x86_64
-s425149535.801571
-e425149535.827246
+s426053301.124763
+e426053301.150688
 r1
 xLd
 x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Products/Debug/Client
@@ -350,53 +120,6 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Link /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Products/Debug/Client98"Ld /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Products/Debug/Client normal x86_64a14acd5f4457b941^97c6d35f4457b941^---0#0#1#--1096"Ld /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Products/Debug/Client normal x86_64    cd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Client    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Products/Debug -L../Build/Products/Debug -F/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Products/Debug -filelist /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/Client.LinkFileList -mmacosx-version-min=10.9 -stdlib=libc++ -lTCPLibrary -Xlinker -dependency_info -Xlinker /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/Client_dependency_info.dat -o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Products/Debug/Client36"4BB3DC40-BF9E-40D0-A49E-8EFDC5CDF309-
-b8AFD8E70-3074-4F93-A8C7-2C066837D957
-
-CLd /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Products/Debug/Client normal x86_64
-s425148569.827098
-e425148569.850121
-r1
-xLd
-x/Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Products/Debug/Client
-xnormal
-xx86_64
-d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/Client.LinkFileList
-d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/ClientMain.o
-d/Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Products/Debug/libTCPLibrary.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Link /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Products/Debug/Client95"Ld /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Products/Debug/Client normal x86_641dc7d3994057b941^a9a1d9994057b941^---0#0#1#--1075"Ld /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Products/Debug/Client normal x86_64    cd /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Client    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Products/Debug -L../Build/Products/Debug -F/Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Products/Debug -filelist /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/Client.LinkFileList -mmacosx-version-min=10.9 -stdlib=libc++ -lTCPLibrary -Xlinker -dependency_info -Xlinker /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/Client_dependency_info.dat -o /Users/zachary/Desktop/Dropbox/Cross/TCPSource/Mac/Build/Products/Debug/Client36"F2169CF0-24DB-43C3-8B6D-28CDD39A8486-
-b360AEEAD-0BA0-4881-AE9D-4B5665B29A84
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Link /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Products/Debug/Client98"Ld /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Products/Debug/Client normal x86_6444fc1fb50e65b941^e29326b50e65b941^---0#0#1#--1096"Ld /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Products/Debug/Client normal x86_64    cd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Client    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Products/Debug -L../Build/Products/Debug -F/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Products/Debug -filelist /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/Client.LinkFileList -mmacosx-version-min=10.9 -stdlib=libc++ -lTCPLibrary -Xlinker -dependency_info -Xlinker /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Intermediates/Client.build/Debug/Client.build/Objects-normal/x86_64/Client_dependency_info.dat -o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/Mac/Build/Products/Debug/Client36"DDD265D2-9E6D-4853-8F5D-A89F796E723F-
+b2511C0AE-CF4F-433E-BB5B-5FBAD08C36E8
 
