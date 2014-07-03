@@ -31,18 +31,16 @@ namespace TCPLibrary
 		// returns last error code
         const int GetError() const;
 
+		// Select for Blocking Selection of Sockets to Be Read From or Written To
+		const int Select(void* inSetIn, void* inSetOut);
+		// Clear Socket Set
+		void Zero(void* inSet);
+		// Set Copying to Other Set
+		void Copy(void* inDst, void* inSrc);
+
 		// Server & Client Socket Creation and Initialization
-		// Bind to Port if Server
 		std::shared_ptr<TCPSocket> CreateSocket(const std::string& inIP, const std::string& inPort) const;
 
-		// Server Select for Blocking Selection of Sockets to Be Read From or Written To
-		const int Select(void* inSetIn, void* inSetOut) const;
-        
-		// Clear Socket Set
-		void Zero(fd_set* inSet) const;
-        // Set Copying to Other Set
-		void Copy(fd_set* inDst, fd_set* inSrc);
-        
     private:
         // TCPSocketUtil Implementation Class
         class TCPSocketUtilImpl;

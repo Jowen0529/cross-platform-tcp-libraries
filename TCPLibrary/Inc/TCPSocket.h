@@ -15,7 +15,6 @@ namespace TCPLibrary
 	public:
 		// TCPSocketUtil WrapperClass
 		friend class TCPSocketUtil;
-        
 		// TCP Destructor Closes Socket
 		~TCPSocket();
         
@@ -23,8 +22,8 @@ namespace TCPLibrary
 		const int Bind(const std::string& inIP, const std::string& inPort) const;
 		// Server Socket Listen for Connection
 		const int Listen() const;
-		// Server Socket Accept Connection
-		const std::shared_ptr<TCPSocket> Accept() const;
+		// Server Socket Accept Connection and IP Address
+		const std::shared_ptr<TCPSocket> Accept(std::string& outIP) const;
         
 		// Client Socket Connect
 		const int Connect(const std::string& inIP, const std::string& inPort) const;
@@ -39,16 +38,25 @@ namespace TCPLibrary
         // Report If Invalid Socket or Socket Errors
 		const bool IsSocketError() const;
         
+        /*
 		// Set Active Socket in Set
         void Set(fd_set* inSet) const;
 		// Clear Active Socket From Set
         void Clear(fd_set* inSet) const;
 		// Check If Socket Is Set
         const int IsSet(fd_set* inSet) const;
+        */
+        // Set Active Socket in Set
+        void Set(void* inSet) const;
+		// Clear Active Socket From Set
+        void Clear(void* inSet) const;
+		// Check If Socket Is Set
+        const int IsSet(void* inSet) const;
+        
 
 	private:
         // TCPSocket Implementation Class
-        class TCPSocketImpl;
+		class TCPSocketImpl;
         // Pointer to TCPSocket Implementation Class
         std::shared_ptr<TCPSocketImpl> mPImpl;
 		
