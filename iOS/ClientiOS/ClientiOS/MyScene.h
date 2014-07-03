@@ -8,59 +8,38 @@
 
 #import <SpriteKit/SpriteKit.h>
 
+enum ClientState
+{
+    State_Initial = 1 << 0,
+    State_Waiting_For_ServerIP = 1 << 1,
+    State_Waiting_For_ServerPort = 1 << 2,
+    State_Setting_Up_Client = 1 << 3,
+    State_Client_Running = 1 << 4,
+};
 
 struct ClientObjC;
 
 
-
-enum ClientState
-{
-    State_Initial = 1 << 0,
-    State_Waiting_For_ClientIP = 1 << 1,
-    State_Waiting_For_ServerIP = 1 << 2,
-    State_Waiting_For_ServerPort = 1 << 3,
-    State_Setting_Up_Client = 1 << 4,
-    State_Client_Running = 1 << 5,
-};
-
-
-
 @interface MyScene : SKScene <UITextFieldDelegate>
 {
+    struct ClientObjC* clientObjC;
+    
     enum ClientState mClientState;
     
-@public
-    struct ClientObjC* clientObjC;
+    float mLabelScale;
+    int mTimesMoved;
+    int mCountVisibleLabels;
 }
 
--(void)didMoveToView:(SKView *)view;
+@property (nonatomic, retain) UITextField *textField;
+@property (nonatomic, retain) NSMutableArray* mLabelArray;
 
-
--(void)ProcessTextInput:(NSString*)inString;
-
+-(void)didMoveToView:(SKView*)view;
 
 -(void)SetState:(enum ClientState)inClientState;
+-(void)ProcessTextInput:(NSString*)inString;
+-(void)AddLabel:(NSString*)inText;
 
-
-@property (nonatomic, retain) NSMutableArray* mLabelArray;
--(void)addLabel:(NSString*)inText;
-
-@property (nonatomic, retain) UITextField *textField;
-
-
-@property float LabelScale;
-@property float timesMoved;
-
-
-//+(id)SharedScene;
 +(id)SharedSceneWithSize:(CGSize)size;
 
-//@property enum ClientState mClientState;
-
-
-
-
-
-
 @end
-

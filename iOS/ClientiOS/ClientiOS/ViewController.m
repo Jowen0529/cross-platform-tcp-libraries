@@ -11,26 +11,18 @@
 
 @implementation ViewController
 
-/*
- -(void)viewDidLoad
- {
- [super viewDidLoad];
- */
-
 -(void)viewWillLayoutSubviews
 {
     [super viewWillLayoutSubviews];
     
     
     // Configure the view.
-    SKView * skView = (SKView *)self.view;
+    SKView* skView = (SKView *)self.view;
     skView.showsFPS = YES;
     skView.showsNodeCount = YES;
     
     // Create and configure the scene.
-    
-    
-    //SKScene * scene = [MyScene sceneWithSize:skView.bounds.size];
+    //SKScene* scene = [MyScene sceneWithSize:skView.bounds.size];
     SKScene* scene = [MyScene SharedSceneWithSize:skView.bounds.size];
     scene.scaleMode = SKSceneScaleModeAspectFill;
     
@@ -39,21 +31,24 @@
     [skView presentScene:scene];
 }
 
-- (BOOL)shouldAutorotate
-{
-    return YES;
-}
 
-- (NSUInteger)supportedInterfaceOrientations
+-(BOOL)shouldAutorotate { return YES; }
+
+
+-(NSUInteger)supportedInterfaceOrientations
 {
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
+    {
         return UIInterfaceOrientationMaskAllButUpsideDown;
-    } else {
+    }
+    else
+    {
         return UIInterfaceOrientationMaskAll;
     }
 }
 
-- (void)didReceiveMemoryWarning
+
+-(void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Release any cached data, images, etc that aren't in use.

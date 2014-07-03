@@ -18,7 +18,6 @@
 		B6844B71195B9020001CF2C7 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6844B6F195B9020001CF2C7 /* Main_iPad.storyboard */; };
 		B6844B74195B9020001CF2C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6844B73195B9020001CF2C7 /* ViewController.m */; };
 		B6844B77195B9020001CF2C7 /* MyScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6844B76195B9020001CF2C7 /* MyScene.mm */; };
-		B6844B79195B9020001CF2C7 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = B6844B78195B9020001CF2C7 /* Spaceship.png */; };
 		B6844B7B195B9020001CF2C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6844B7A195B9020001CF2C7 /* Images.xcassets */; };
 		B6844B82195B9021001CF2C7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6844B81195B9021001CF2C7 /* XCTest.framework */; };
 		B6844B83195B9021001CF2C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6844B58195B9020001CF2C7 /* Foundation.framework */; };
@@ -56,7 +55,6 @@
 		B6844B73195B9020001CF2C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B6844B75195B9020001CF2C7 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		B6844B76195B9020001CF2C7 /* MyScene.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MyScene.mm; sourceTree = "<group>"; };
-		B6844B78195B9020001CF2C7 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		B6844B7A195B9020001CF2C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B6844B80195B9021001CF2C7 /* ClientiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClientiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6844B81195B9021001CF2C7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -141,7 +139,6 @@
 				B6844B73195B9020001CF2C7 /* ViewController.m */,
 				B6844B75195B9020001CF2C7 /* MyScene.h */,
 				B6844B76195B9020001CF2C7 /* MyScene.mm */,
-				B6844B78195B9020001CF2C7 /* Spaceship.png */,
 				B6844B7A195B9020001CF2C7 /* Images.xcassets */,
 				B6844B61195B9020001CF2C7 /* Supporting Files */,
 			);
@@ -253,7 +250,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6844B79195B9020001CF2C7 /* Spaceship.png in Resources */,
 				B6844B7B195B9020001CF2C7 /* Images.xcassets in Resources */,
 				B6844B71195B9020001CF2C7 /* Main_iPad.storyboard in Resources */,
 				B6844B6E195B9020001CF2C7 /* Main_iPhone.storyboard in Resources */,
@@ -509,6 +505,7 @@
 				B6844B93195B9021001CF2C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6844B94195B9021001CF2C7 /* Build configuration list for PBXNativeTarget "ClientiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +514,7 @@
 				B6844B96195B9021001CF2C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
