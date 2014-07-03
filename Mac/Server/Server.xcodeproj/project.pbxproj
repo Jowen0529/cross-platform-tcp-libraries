@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B64021D81956D59600DE6841 /* libTCPLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B64021D71956D59600DE6841 /* libTCPLibrary.a */; };
+		B60DA2141965F6FE005EDF61 /* libTCPLibrary-Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B60DA2131965F6FE005EDF61 /* libTCPLibrary-Mac.a */; };
 		B6C2382C1956D31900E20E43 /* ServerMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6C2382B1956D31900E20E43 /* ServerMain.cpp */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B64021D71956D59600DE6841 /* libTCPLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTCPLibrary.a; path = ../Build/Products/Debug/libTCPLibrary.a; sourceTree = "<group>"; };
+		B60DA2131965F6FE005EDF61 /* libTCPLibrary-Mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libTCPLibrary-Mac.a"; path = "../libTCPLibrary-Mac.a"; sourceTree = "<group>"; };
 		B6A3C051194620CE0002384D /* Server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Server; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C2382B1956D31900E20E43 /* ServerMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ServerMain.cpp; path = ../../Demos/ServerMain.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -34,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B64021D81956D59600DE6841 /* libTCPLibrary.a in Frameworks */,
+				B60DA2141965F6FE005EDF61 /* libTCPLibrary-Mac.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,7 +44,7 @@
 		B6A3C048194620CE0002384D = {
 			isa = PBXGroup;
 			children = (
-				B64021D71956D59600DE6841 /* libTCPLibrary.a */,
+				B60DA2131965F6FE005EDF61 /* libTCPLibrary-Mac.a */,
 				B6C2382B1956D31900E20E43 /* ServerMain.cpp */,
 				B6A3C052194620CE0002384D /* Products */,
 			);
@@ -194,7 +194,7 @@
 				"HEADER_SEARCH_PATHS[arch=*]" = ./../../TCPLibrary/Inc;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					./../Build/Products/Debug,
+					..,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -208,7 +208,7 @@
 				"HEADER_SEARCH_PATHS[arch=*]" = ./../../TCPLibrary/Inc;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					./../Build/Products/Debug,
+					..,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

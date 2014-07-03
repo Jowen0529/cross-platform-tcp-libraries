@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B64321871965F79F00642211 /* libTCPLibrary-MacObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B64321861965F79F00642211 /* libTCPLibrary-MacObjC.a */; };
 		B64AAD30195A181C002D5641 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64AAD2F195A181C002D5641 /* Foundation.framework */; };
 		B64AAD33195A181C002D5641 /* ServerObjCMain.mm in Sources */ = {isa = PBXBuildFile; fileRef = B64AAD32195A181C002D5641 /* ServerObjCMain.mm */; };
-		B64AAD3E195A1885002D5641 /* libTCPLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B64AAD3D195A1885002D5641 /* libTCPLibrary.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,11 +25,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B64321861965F79F00642211 /* libTCPLibrary-MacObjC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libTCPLibrary-MacObjC.a"; path = "../libTCPLibrary-MacObjC.a"; sourceTree = "<group>"; };
 		B64AAD2C195A181C002D5641 /* ServerObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ServerObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64AAD2F195A181C002D5641 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B64AAD32195A181C002D5641 /* ServerObjCMain.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ServerObjCMain.mm; sourceTree = "<group>"; };
 		B64AAD35195A181C002D5641 /* ServerObjC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ServerObjC-Prefix.pch"; sourceTree = "<group>"; };
 		B64AAD3D195A1885002D5641 /* libTCPLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTCPLibrary.a; path = ../Build/Products/Debug/libTCPLibrary.a; sourceTree = "<group>"; };
+		B68D15F01965F17100755BF4 /* libTCPLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTCPLibrary.a; path = ../libTCPLibrary.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B64AAD3E195A1885002D5641 /* libTCPLibrary.a in Frameworks */,
+				B64321871965F79F00642211 /* libTCPLibrary-MacObjC.a in Frameworks */,
 				B64AAD30195A181C002D5641 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +67,8 @@
 		B64AAD2E195A181C002D5641 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B64321861965F79F00642211 /* libTCPLibrary-MacObjC.a */,
+				B68D15F01965F17100755BF4 /* libTCPLibrary.a */,
 				B64AAD3D195A1885002D5641 /* libTCPLibrary.a */,
 				B64AAD2F195A181C002D5641 /* Foundation.framework */,
 			);
@@ -222,10 +226,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ServerObjC/ServerObjC-Prefix.pch";
 				"HEADER_SEARCH_PATHS[arch=*]" = ../../TCPLibrary/Inc;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					../Build/Products/Debug,
-				);
+				LIBRARY_SEARCH_PATHS = ..;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -236,10 +237,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ServerObjC/ServerObjC-Prefix.pch";
 				"HEADER_SEARCH_PATHS[arch=*]" = ../../TCPLibrary/Inc;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					../Build/Products/Debug,
-				);
+				LIBRARY_SEARCH_PATHS = ..;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

@@ -1,25 +1,28 @@
 # GitIgnore
-# Compiled Object files
+
+# Windows, WindowsCS Projects
+**/Debug/
+**/bin/
+**/obj/
+
+# Mac, MacOjbC Projects
+**/Build/
+
+# Linux, ROS Projects
+**/build/
+**/bin/
+**/lib/
+
+# Object Files, Executables
 *.o
 *.obj
-
-# Executables
 *.exe
 *.out
 *.app
 
-# CMake
-MakeCache.txt
-CMakeFiles
-cmake_install.cmake
-install_manifest.txt
+# XCode
+**/xcuserdata/
 
-# ROS
-build/
-bin/
-
-# Xcode
-*.xcbkptlist
 
 # VisualStudio
 *.user

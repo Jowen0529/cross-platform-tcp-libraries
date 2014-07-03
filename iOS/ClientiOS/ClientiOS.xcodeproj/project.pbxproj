@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B60DA20F1965F5F0005EDF61 /* libTCPLibrary-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B60DA20D1965F5F0005EDF61 /* libTCPLibrary-iOS.a */; };
+		B60DA2101965F5F0005EDF61 /* libTCPLibrary-iOSSim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B60DA20E1965F5F0005EDF61 /* libTCPLibrary-iOSSim.a */; };
 		B6844B59195B9020001CF2C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6844B58195B9020001CF2C7 /* Foundation.framework */; };
 		B6844B5B195B9020001CF2C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6844B5A195B9020001CF2C7 /* CoreGraphics.framework */; };
 		B6844B5D195B9020001CF2C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6844B5C195B9020001CF2C7 /* UIKit.framework */; };
@@ -24,7 +26,6 @@
 		B6844B84195B9021001CF2C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6844B5C195B9020001CF2C7 /* UIKit.framework */; };
 		B6844B8C195B9021001CF2C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6844B8A195B9021001CF2C7 /* InfoPlist.strings */; };
 		B6844B8E195B9021001CF2C7 /* ClientiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6844B8D195B9021001CF2C7 /* ClientiOSTests.m */; };
-		B6844B9E195B9116001CF2C7 /* libTCPLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6844B9D195B9116001CF2C7 /* libTCPLibrary.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B60DA20D1965F5F0005EDF61 /* libTCPLibrary-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libTCPLibrary-iOS.a"; path = "../libTCPLibrary-iOS.a"; sourceTree = "<group>"; };
+		B60DA20E1965F5F0005EDF61 /* libTCPLibrary-iOSSim.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libTCPLibrary-iOSSim.a"; path = "../libTCPLibrary-iOSSim.a"; sourceTree = "<group>"; };
 		B6844B55195B9020001CF2C7 /* ClientiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClientiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6844B58195B9020001CF2C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B6844B5A195B9020001CF2C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -72,7 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6844B9E195B9116001CF2C7 /* libTCPLibrary.a in Frameworks */,
+				B60DA20F1965F5F0005EDF61 /* libTCPLibrary-iOS.a in Frameworks */,
+				B60DA2101965F5F0005EDF61 /* libTCPLibrary-iOSSim.a in Frameworks */,
 				B6844B5B195B9020001CF2C7 /* CoreGraphics.framework in Frameworks */,
 				B6844B5D195B9020001CF2C7 /* UIKit.framework in Frameworks */,
 				B6844B5F195B9020001CF2C7 /* SpriteKit.framework in Frameworks */,
@@ -115,6 +119,8 @@
 		B6844B57195B9020001CF2C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B60DA20D1965F5F0005EDF61 /* libTCPLibrary-iOS.a */,
+				B60DA20E1965F5F0005EDF61 /* libTCPLibrary-iOSSim.a */,
 				B6844B9D195B9116001CF2C7 /* libTCPLibrary.a */,
 				B6844B9B195B90E6001CF2C7 /* libTCPLibrary.a */,
 				B6844B99195B9099001CF2C7 /* libTCPLibrary.a */,
@@ -414,12 +420,8 @@
 				GCC_PREFIX_HEADER = "ClientiOS/ClientiOS-Prefix.pch";
 				"HEADER_SEARCH_PATHS[arch=*]" = ./../../TCPLibrary/Inc;
 				INFOPLIST_FILE = "ClientiOS/ClientiOS-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"../Build/Products/Debug-iphoneos",
-					"../Build/Products/Debug-iphonesimulator",
-				);
-				"LIBRARY_SEARCH_PATHS[arch=*]" = "../Build/Products/Debug-iphoneos";
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = ..;
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = ..;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -435,11 +437,8 @@
 				GCC_PREFIX_HEADER = "ClientiOS/ClientiOS-Prefix.pch";
 				"HEADER_SEARCH_PATHS[arch=*]" = ./../../TCPLibrary/Inc;
 				INFOPLIST_FILE = "ClientiOS/ClientiOS-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"../Build/Products/Debug-iphoneos",
-					"../Build/Products/Debug-iphonesimulator",
-				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = ..;
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = ..;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;

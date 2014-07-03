@@ -1,566 +1,0 @@
-TClientiOS
-v6
-r1
-cCheck dependencies
-cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ResourceRules.plist
-cProcessPCH++ /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-atbmgebfafrwycbrldimeeqiqpxm/ClientiOS-Prefix.pch.pch ClientiOS/ClientiOS-Prefix.pch normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-btpfndhwaetllcdjtcsxvamstrmv/ClientiOS-Prefix.pch.pch ClientiOS/ClientiOS-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/MyScene.o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/MyScene.mm normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/ViewController.o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/AppDelegate.o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/main.o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ClientiOS normal arm64
-cCompileStoryboard /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/Base.lproj/Main_iPad.storyboard
-cCompileStoryboard /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/Base.lproj/Main_iPhone.storyboard
-cCopyStringsFile /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/en.lproj/InfoPlist.strings ClientiOS/en.lproj/InfoPlist.strings
-cCompileAssetCatalog /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/Images.xcassets
-cProcessInfoPlistFile /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/Info.plist /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ClientiOS-Info.plist
-cGenerateDSYMFile /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app.dSYM /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ClientiOS
-cProcessProductPackaging /Users/zachary/Library/MobileDevice/Provisioning\ Profiles/61266B13-D60D-4C3C-A454-0F565E927644.mobileprovision /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/embedded.mobileprovision
-cTouch /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS.xcent
-cCodeSign /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
-c0000000053480E8A0000000000000132
-t1397231242
-s306
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
-c00000000531EC9160000000000000094
-t1394526486
-s148
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
-c00000000531EC9160000000000000096
-t1394526486
-s150
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
-c00000000531EC916000000000000036B
-t1394526486
-s875
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000531EC916000000000000019E
-t1394526486
-s414
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c0000000053480E6100000000004D7BC0
-t1397231201
-s5077952
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000531EC9180000000000A90C10
-t1394526488
-s11078672
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SpriteKit.framework/SpriteKit
-c00000000531EC9190000000000312240
-t1394526489
-s3220032
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c00000000531EC91C0000000002759920
-t1394526492
-s41261344
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c00000000531EC9440000000000000ADC
-t1394526532
-s2780
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS.xcent
-t1404359710
-s416
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/AppDelegate.o
-t1404359696
-s66480
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/ClientiOS.LinkFileList
-c0000000053B4D4090000000000000268
-t1404359689
-s616
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/MyScene.o
-t1404359696
-s178368
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/ViewController.o
-t1404359696
-s45124
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/main.o
-t1404359696
-s4264
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/assetcatalog_dependencies.txt
-t1404359709
-s406
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/assetcatalog_generated_info.plist
-t1404359709
-s525
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-atbmgebfafrwycbrldimeeqiqpxm/ClientiOS-Prefix.pch.pch
-t1404359691
-s6285148
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-btpfndhwaetllcdjtcsxvamstrmv/ClientiOS-Prefix.pch.pch
-t1404359696
-s110800
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app
-t1404359710
-s374
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app.dSYM
-t2
-s0
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/Base.lproj/Main_iPad.storyboardc
-t1404359710
-s170
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/Base.lproj/Main_iPhone.storyboardc
-t1404359710
-s170
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ClientiOS
-t1404359698
-s161104
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/Info.plist
-t1404359710
-s1475
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/PkgInfo
-t1404359710
-s8
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ResourceRules.plist
-t1404359689
-s150
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/embedded.mobileprovision
-t1404359710
-s7618
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/en.lproj/InfoPlist.strings
-t1404359698
-s42
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/AppDelegate.m
-c0000000053B4636900000000000007CB
-t1404330857
-s1995
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/Base.lproj/Main_iPad.storyboard
-c0000000053AB58A00000000000000712
-t1403738272
-s1810
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/Base.lproj/Main_iPhone.storyboard
-c0000000053AB58A0000000000000071A
-t1403738272
-s1818
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ClientiOS-Info.plist
-c0000000053AB5AEC00000000000005BA
-t1403738860
-s1466
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ClientiOS-Prefix.pch
-c0000000053AB58A00000000000000158
-t1403738272
-s344
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/Images.xcassets
-c0000000053AB58A00000000000000088
-t1403738272
-s136
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/MyScene.mm
-c0000000053B47A480000000000001CA8
-t1404336712
-s7336
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ViewController.m
-c0000000053B4786300000000000004A6
-t1404336227
-s1190
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/en.lproj/InfoPlist.strings
-c0000000053AB58A0000000000000002D
-t1403738272
-s45
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/main.m
-c0000000053AB58A00000000000000154
-t1403738272
-s340
-
-N/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/TCPLibrary/build/Debug-iphoneos/libTCPLibrary.a
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/zachary/Library/MobileDevice/Provisioning Profiles/61266B13-D60D-4C3C-A454-0F565E927644.mobileprovision
-c0000000052B8C1760000000000001DC2
-t1387839862
-s7618
-
-CBuild AST from /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/AppDelegate.m
-r0
-
-CBuild AST from /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/MyScene.mm
-r0
-
-CBuild AST from /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ViewController.m
-r0
-
-CBuild AST from /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies1bd9b5890b65b941^c9acce890b65b941^---0#1#1#--18"Check dependencies36"A75B7B1E-EF33-418B-8317-2CEFC7BE1207-
-
-CCodeSign /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app
-s426052510.825891
-e426052511.722086
-r1
-xCodeSign
-x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"CodeSign /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app106"CodeSign /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app8429e29e0b65b941^f5dab89f0b65b941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/0000000000000000^1140"CodeSign /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app    cd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Zach Metcalf (8LU8X9646K)" and provisioning profile "iOS Team Provisioning Profile: *" (61266B13-D60D-4C3C-A454-0F565E927644)    /usr/bin/codesign --force --sign 69D2AF44D857B70C29CD4DF263B4215F8C65CA7F --resource-rules=/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ResourceRules.plist --entitlements /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS.xcent /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app36"14E4406A-7348-4F09-9CAE-3C6DCAF5B99D-
-b7186A315-68B5-4671-A59E-0843F951BA57
-
-CCompileAssetCatalog /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/Images.xcassets
-s426052498.813511
-e426052509.708485
-r1
-xCompileAssetCatalog
-x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app
-x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/Images.xcassets
-o2014-07-02 20:55:08.561 IBCocoaTouchImageCatalogTool[1622:303] CFPreferences: user home directory at file:///Users/zachary/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-o/* com.apple.actool.compilation-results */
-o/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/LaunchImage-700-568h@2x.png
-o/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/Assets.car
-o/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/assetcatalog_generated_info.plist
-o
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"CompileAssetCatalog /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app ClientiOS/Images.xcassets143"CompileAssetCatalog /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app ClientiOS/Images.xcassetse466d0920b65b941^fe5fb59d0b65b941^-659"2014-07-02 20:55:08.561 IBCocoaTouchImageCatalogTool[1622:303] CFPreferences: user home directory at file:///Users/zachary/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.actool.compilation-results *//Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/LaunchImage-700-568h@2x.png/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/Assets.car/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@97"file:///Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/Images.xcassets/0000000000000000^1237"CompileAssetCatalog /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app ClientiOS/Images.xcassets    cd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.1 --target-device iphone --target-device ipad --compress-pngs --compile /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/Images.xcassets36"9323BA90-4362-4D9E-BC67-C9343207ABF8-
-b7186A315-68B5-4671-A59E-0843F951BA57
-
-CCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/AppDelegate.o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s426052496.053330
-e426052496.691397
-r1
-xCompileC
-x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/AppDelegate.o
-x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/AppDelegate.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/AppDelegate.m
-d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/AppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/AppDelegate.m257"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/AppDelegate.o ClientiOS/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc5c90d900b65b941^0d00b1900b65b941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/AppDelegate.m0000000000000000^3759"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/AppDelegate.o ClientiOS/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS-generated-files.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS-own-target-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS-all-target-headers.hmap -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS-project-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/include -I../../TCPLibrary/Inc -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/DerivedSources/arm64 -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/DerivedSources -F/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos -include /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-btpfndhwaetllcdjtcsxvamstrmv/ClientiOS-Prefix.pch -MMD -MT dependencies -MF /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/AppDelegate.d --serialize-diagnostics /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/AppDelegate.dia -c /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/AppDelegate.m -o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/AppDelegate.o36"3638E846-978C-499F-B18A-D08BCCBCAE2D-
-b7186A315-68B5-4671-A59E-0843F951BA57
-
-CCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/MyScene.o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/MyScene.mm normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s426052496.052543
-e426052496.997881
-r1
-xCompileC
-x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/MyScene.o
-x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/MyScene.mm
-xnormal
-xarm64
-xobjective-c++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/MyScene.mm
-d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/MyScene.h
-d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/TCPLibrary/Inc/TCPLibrary.h
-d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/TCPLibrary/Inc/TCPSocket.h
-d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/TCPLibrary/Inc/TCPSocketUtil.h
-d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/TCPLibrary/Inc/Proxy.h
-d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/TCPLibrary/Inc/Server.h
-d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/TCPLibrary/Inc/Client.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/MyScene.mm252"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/MyScene.o ClientiOS/MyScene.mm normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler16890d900b65b941^2175ff900b65b941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/MyScene.mm0000000000000000^3885"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/MyScene.o ClientiOS/MyScene.mm normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -fmodules -fmodules-cache-path=/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS-generated-files.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS-own-target-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS-all-target-headers.hmap -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS-project-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/include -I../../TCPLibrary/Inc -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/DerivedSources/arm64 -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/DerivedSources -F/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos -include /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-atbmgebfafrwycbrldimeeqiqpxm/ClientiOS-Prefix.pch -MMD -MT dependencies -MF /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/MyScene.d --serialize-diagnostics /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/MyScene.dia -c /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/MyScene.mm -o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/MyScene.o36"D9116CF1-0FAB-4AA1-9CF2-CE1246C4AA17-
-b7186A315-68B5-4671-A59E-0843F951BA57
-
-CCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/ViewController.o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s426052496.052959
-e426052496.797449
-r1
-xCompileC
-x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/ViewController.o
-x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ViewController.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ViewController.m
-d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ViewController.h
-d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/MyScene.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ViewController.m263"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/ViewController.o ClientiOS/ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler5da70d900b65b941^0b28cc900b65b941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ViewController.m0000000000000000^3777"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/ViewController.o ClientiOS/ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS-generated-files.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS-own-target-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS-all-target-headers.hmap -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS-project-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/include -I../../TCPLibrary/Inc -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/DerivedSources/arm64 -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/DerivedSources -F/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos -include /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-btpfndhwaetllcdjtcsxvamstrmv/ClientiOS-Prefix.pch -MMD -MT dependencies -MF /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/ViewController.d --serialize-diagnostics /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/ViewController.dia -c /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ViewController.m -o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/ViewController.o36"8567AD9E-4FBB-4B73-ADF9-6B523E39E570-
-b7186A315-68B5-4671-A59E-0843F951BA57
-
-CCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/main.o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s426052496.053720
-e426052496.655387
-r1
-xCompileC
-x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/main.o
-x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/main.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/main.m
-d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/AppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/main.m243"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/main.o ClientiOS/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler65e30d900b65b941^e7c7a7900b65b941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/main.m0000000000000000^3717"CompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/main.o ClientiOS/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS-generated-files.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS-own-target-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS-all-target-headers.hmap -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS-project-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/include -I../../TCPLibrary/Inc -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/DerivedSources/arm64 -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/DerivedSources -F/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos -include /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-btpfndhwaetllcdjtcsxvamstrmv/ClientiOS-Prefix.pch -MMD -MT dependencies -MF /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/main.d --serialize-diagnostics /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/main.dia -c /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/main.m -o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/main.o36"B6A7EDE3-7D54-4FD3-91EF-BEB0F17AF470-
-b7186A315-68B5-4671-A59E-0843F951BA57
-
-CCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/armv7/AppDelegate.o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/armv7/MyScene.o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/MyScene.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/armv7/ViewController.o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/armv7/main.o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/armv7s/AppDelegate.o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/armv7s/MyScene.o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/MyScene.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/armv7s/ViewController.o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/armv7s/main.o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileStoryboard /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/Base.lproj/Main_iPad.storyboard
-s426052498.812453
-e426052510.419196
-r1
-xCompileStoryboard
-x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/Base.lproj/Main_iPad.storyboard
-o2014-07-02 20:55:10.254 Interface Builder Cocoa Touch Tool[1619:303] CFPreferences: user home directory at file:///Users/zachary/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"CompileStoryboard ClientiOS/Base.lproj/Main_iPad.storyboard59"CompileStoryboard ClientiOS/Base.lproj/Main_iPad.storyboarded0bd0920b65b941^c2506b9e0b65b941^-231"2014-07-02 20:55:10.254 Interface Builder Cocoa Touch Tool[1619:303] CFPreferences: user home directory at file:///Users/zachary/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@112"file:///Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/Base.lproj/Main_iPad.storyboard0000000000000000^866"CompileStoryboard ClientiOS/Base.lproj/Main_iPad.storyboard    cd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/Base.lproj/Main_iPad.storyboardc /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/Base.lproj/Main_iPad.storyboard36"E87A3D66-A416-4626-A971-768005C8E504-
-b7186A315-68B5-4671-A59E-0843F951BA57
-
-CCompileStoryboard /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/Base.lproj/Main_iPhone.storyboard
-s426052498.812701
-e426052510.417773
-r1
-xCompileStoryboard
-x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/Base.lproj/Main_iPhone.storyboard
-o2014-07-02 20:55:10.254 Interface Builder Cocoa Touch Tool[1620:303] CFPreferences: user home directory at file:///Users/zachary/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"CompileStoryboard ClientiOS/Base.lproj/Main_iPhone.storyboard61"CompileStoryboard ClientiOS/Base.lproj/Main_iPhone.storyboardd524d0920b65b941^80f36a9e0b65b941^-231"2014-07-02 20:55:10.254 Interface Builder Cocoa Touch Tool[1620:303] CFPreferences: user home directory at file:///Users/zachary/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@114"file:///Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/Base.lproj/Main_iPhone.storyboard0000000000000000^872"CompileStoryboard ClientiOS/Base.lproj/Main_iPhone.storyboard    cd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/Base.lproj/Main_iPhone.storyboardc /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/Base.lproj/Main_iPhone.storyboard36"5013D6DD-EA91-4205-90E5-B670D4C0664F-
-b7186A315-68B5-4671-A59E-0843F951BA57
-
-CCopyStringsFile /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/en.lproj/InfoPlist.strings ClientiOS/en.lproj/InfoPlist.strings
-s426052498.812966
-e426052498.814478
-r1
-xCopyStringsFile
-x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/en.lproj/InfoPlist.strings
-xClientiOS/en.lproj/InfoPlist.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy ClientiOS/en.lproj/InfoPlist.strings177"CopyStringsFile /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/en.lproj/InfoPlist.strings ClientiOS/en.lproj/InfoPlist.stringsa034d0920b65b941^3882d0920b65b941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/en.lproj/InfoPlist.strings0000000000000000^674"CopyStringsFile /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/en.lproj/InfoPlist.strings ClientiOS/en.lproj/InfoPlist.strings    cd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/en.lproj -- ClientiOS/en.lproj/InfoPlist.strings36"AF0E755B-032F-4571-92C1-57EEE283246E-
-b7186A315-68B5-4671-A59E-0843F951BA57
-
-CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ResourceRules.plist
-s426052489.808214
-e426052489.809994
-r1
-xCpResource
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
-x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ResourceRules.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Copy /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ResourceRules.plist250"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ResourceRules.plist99f5ce890b65b941^0d33f4890b65b941^---0#0#1#-19%DVTDocumentLocation2@124"file:///Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ResourceRules.plist00341886dfffdf42^842"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ResourceRules.plist    cd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app36"6923FC94-F35A-4F25-B516-21D11E30D119-
-b7186A315-68B5-4671-A59E-0843F951BA57
-
-CCreateUniversalBinary /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ClientiOS normal armv7\ armv7s\ arm64
-r0
-
-CGenerateDSYMFile /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app.dSYM /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ClientiOS
-s426052510.429556
-e426052510.714733
-r1
-xGenerateDSYMFile
-x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app.dSYM
-x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ClientiOS
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Generate /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app.dSYM227"GenerateDSYMFile /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app.dSYM /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ClientiOSb8066e9e0b65b941^55f9b69e0b65b941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app.dSYM00341886dfffdf42^801"GenerateDSYMFile /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app.dSYM /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ClientiOS    cd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ClientiOS -o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app.dSYM36"928E4A00-6FE6-4C45-B770-CED734DA1DEA-
-b7186A315-68B5-4671-A59E-0843F951BA57
-
-CLd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/ClientiOS normal arm64
-r0
-
-CLd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/armv7/ClientiOS normal armv7
-r0
-
-CLd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/armv7s/ClientiOS normal armv7s
-r0
-
-CLd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ClientiOS normal arm64
-s426052496.999004
-e426052498.811629
-r1
-xLd
-x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ClientiOS
-xnormal
-xarm64
-d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/ClientiOS.LinkFileList
-d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/MyScene.o
-d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/ViewController.o
-d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/AppDelegate.o
-d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/main.o
-d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/libTCPLibrary.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SpriteKit.framework/SpriteKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libc++.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Link /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ClientiOS123"Ld /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ClientiOS normal arm6439d4ff900b65b941^50c7cf920b65b941^---0#0#1#--1530"Ld /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ClientiOS normal arm64    cd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos -L../Build/Products/Debug-iphoneos -F/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos -filelist /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/ClientiOS.LinkFileList -dead_strip -stdlib=libc++ -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.1 -lTCPLibrary -framework CoreGraphics -framework UIKit -framework SpriteKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/Objects-normal/arm64/ClientiOS_dependency_info.dat -o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ClientiOS36"D0A7C819-D0B9-4EBD-9F43-126215920D05-
-b7186A315-68B5-4671-A59E-0843F951BA57
-
-CProcessInfoPlistFile /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/Info.plist /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ClientiOS-Info.plist
-s426052510.420035
-e426052510.428846
-r1
-xProcessInfoPlistFile
-x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/Info.plist
-x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ClientiOS-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Process /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ClientiOS-Info.plist160"ProcessInfoPlistFile /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/Info.plist ClientiOS/ClientiOS-Info.plist91996b9e0b65b941^4fc96d9e0b65b941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ClientiOS-Info.plist0000000000000000^1144"ProcessInfoPlistFile /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/Info.plist ClientiOS/ClientiOS-Info.plist    cd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ClientiOS-Info.plist -genpkginfo /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/ResourceRules.plist -additionalcontentfile /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/assetcatalog_generated_info.plist -o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/Info.plist36"36E341B2-9668-4DE6-B56D-5D0AE206748E-
-b7186A315-68B5-4671-A59E-0843F951BA57
-
-CProcessPCH /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-btpfndhwaetllcdjtcsxvamstrmv/ClientiOS-Prefix.pch.pch ClientiOS/ClientiOS-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s426052489.810928
-e426052496.051350
-r1
-xProcessPCH
-x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-btpfndhwaetllcdjtcsxvamstrmv/ClientiOS-Prefix.pch.pch
-xClientiOS/ClientiOS-Prefix.pch
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ClientiOS-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile ClientiOS/ClientiOS-Prefix.pch274"ProcessPCH /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-btpfndhwaetllcdjtcsxvamstrmv/ClientiOS-Prefix.pch.pch ClientiOS/ClientiOS-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc9afcf890b65b941^31260d900b65b941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ClientiOS-Prefix.pch0000000000000000^3641"ProcessPCH /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-btpfndhwaetllcdjtcsxvamstrmv/ClientiOS-Prefix.pch.pch ClientiOS/ClientiOS-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS-generated-files.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS-own-target-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS-all-target-headers.hmap -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS-project-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/include -I../../TCPLibrary/Inc -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/DerivedSources/arm64 -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/DerivedSources -F/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-btpfndhwaetllcdjtcsxvamstrmv/ClientiOS-Prefix.pch.dia -MMD -MT dependencies -MF /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-btpfndhwaetllcdjtcsxvamstrmv/ClientiOS-Prefix.pch.d -c /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ClientiOS-Prefix.pch -o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-btpfndhwaetllcdjtcsxvamstrmv/ClientiOS-Prefix.pch.pch36"FFB8E65B-65D4-49C2-8AB6-B58E4D7B2839-
-b7186A315-68B5-4671-A59E-0843F951BA57
-
-CProcessPCH /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-bttzmkoxthjtgwbfuusccpknpyny/ClientiOS-Prefix.pch.pch ClientiOS/ClientiOS-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessPCH /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-fdzloxqofhesknelimzqjrskkhtb/ClientiOS-Prefix.pch.pch ClientiOS/ClientiOS-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessPCH /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/TCPiOS/Index/PrecompiledHeaders/ClientiOS-Prefix-dgkzyxxhyvhqmyfxbcmapjnlfzbi_ast/ClientiOS-Prefix.pch.pch ClientiOS/ClientiOS-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/TCPiOS/Index/PrecompiledHeaders/ClientiOS-Prefix-gifkeqysgsmefqadqqwqsehxasvm_ast/ClientiOS-Prefix.pch.pch ClientiOS/ClientiOS-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/TCPiOS/Index/PrecompiledHeaders/ClientiOS-Prefix-gordnefqjrcbgqcrcqiwuqwfawlj_ast/ClientiOS-Prefix.pch.pch ClientiOS/ClientiOS-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH++ /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-atbmgebfafrwycbrldimeeqiqpxm/ClientiOS-Prefix.pch.pch ClientiOS/ClientiOS-Prefix.pch normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s426052489.810624
-e426052492.941491
-r1
-xProcessPCH++
-x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-atbmgebfafrwycbrldimeeqiqpxm/ClientiOS-Prefix.pch.pch
-xClientiOS/ClientiOS-Prefix.pch
-xnormal
-xarm64
-xobjective-c++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ClientiOS-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile ClientiOS/ClientiOS-Prefix.pch278"ProcessPCH++ /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-atbmgebfafrwycbrldimeeqiqpxm/ClientiOS-Prefix.pch.pch ClientiOS/ClientiOS-Prefix.pch normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compilerb29dcf890b65b941^cd06f18c0b65b941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ClientiOS-Prefix.pch0000000000000000^3791"ProcessPCH++ /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-atbmgebfafrwycbrldimeeqiqpxm/ClientiOS-Prefix.pch.pch ClientiOS/ClientiOS-Prefix.pch normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -fmodules -fmodules-cache-path=/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS-generated-files.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS-own-target-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS-all-target-headers.hmap -iquote /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS-project-headers.hmap -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/include -I../../TCPLibrary/Inc -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/DerivedSources/arm64 -I/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/DerivedSources -F/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-atbmgebfafrwycbrldimeeqiqpxm/ClientiOS-Prefix.pch.dia -MMD -MT dependencies -MF /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-atbmgebfafrwycbrldimeeqiqpxm/ClientiOS-Prefix.pch.d -c /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS/ClientiOS/ClientiOS-Prefix.pch -o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-atbmgebfafrwycbrldimeeqiqpxm/ClientiOS-Prefix.pch.pch36"9A5B73E9-0EB1-4162-ABAF-14B9E0AB473A-
-b7186A315-68B5-4671-A59E-0843F951BA57
-
-CProcessPCH++ /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-bcrzjbjjoizvbscobaicntzswrzu/ClientiOS-Prefix.pch.pch ClientiOS/ClientiOS-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessPCH++ /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/PrecompiledHeaders/ClientiOS-Prefix-fpskbscqltywjthclpaspkvrvmks/ClientiOS-Prefix.pch.pch ClientiOS/ClientiOS-Prefix.pch normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessPCH++ /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/TCPiOS/Index/PrecompiledHeaders/ClientiOS-Prefix-cjommpjaomnkuxddwooeerzcymvo_ast/ClientiOS-Prefix.pch.pch ClientiOS/ClientiOS-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH++ /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/TCPiOS/Index/PrecompiledHeaders/ClientiOS-Prefix-dezfwhbnmjpvwbezpzrcyfcyfdpx_ast/ClientiOS-Prefix.pch.pch ClientiOS/ClientiOS-Prefix.pch normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH++ /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/TCPiOS/Index/PrecompiledHeaders/ClientiOS-Prefix-gxbupyoqimgwouawelecbtwkjcgz_ast/ClientiOS-Prefix.pch.pch ClientiOS/ClientiOS-Prefix.pch normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS.xcent
-s426052510.789158
-e426052510.825495
-r1
-xProcessProductPackaging
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
-x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS.xcent
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection281"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS.xcent281"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS.xcent1a17ca9e0b65b941^0056d39e0b65b941^---0#0#1#-19%DVTDocumentLocation2@143"file:///Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS.xcent00341886dfffdf42^864"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS.xcent    cd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Intermediates/ClientiOS.build/Debug-iphoneos/ClientiOS.build/ClientiOS.xcent36"1EA9F4F5-059D-404E-B306-AD561A1BFB3D-
-b7186A315-68B5-4671-A59E-0843F951BA57
-
-CProcessProductPackaging /Users/zachary/Library/MobileDevice/Provisioning\ Profiles/61266B13-D60D-4C3C-A454-0F565E927644.mobileprovision /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/embedded.mobileprovision
-s426052510.715147
-e426052510.788129
-r1
-xProcessProductPackaging
-x/Users/zachary/Library/MobileDevice/Provisioning Profiles/61266B13-D60D-4C3C-A454-0F565E927644.mobileprovision
-x/Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/embedded.mobileprovision
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection258"ProcessProductPackaging /Users/zachary/Library/MobileDevice/Provisioning\ Profiles/61266B13-D60D-4C3C-A454-0F565E927644.mobileprovision /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/embedded.mobileprovision258"ProcessProductPackaging /Users/zachary/Library/MobileDevice/Provisioning\ Profiles/61266B13-D60D-4C3C-A454-0F565E927644.mobileprovision /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/embedded.mobileprovisionf12ab79e0b65b941^bdc3c99e0b65b941^---0#0#1#-19%DVTDocumentLocation2@129"file:///Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/embedded.mobileprovision00341886dfffdf42^792"ProcessProductPackaging /Users/zachary/Library/MobileDevice/Provisioning\ Profiles/61266B13-D60D-4C3C-A454-0F565E927644.mobileprovision /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/embedded.mobileprovision    cd /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/ClientiOS    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/zachary/Library/MobileDevice/Provisioning\ Profiles/61266B13-D60D-4C3C-A454-0F565E927644.mobileprovision -o /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app/embedded.mobileprovision36"1E8BF666-CE1B-42DA-8975-935A61777950-
-b7186A315-68B5-4671-A59E-0843F951BA57
-
-CTouch /Users/zachary/Desktop/Dropbox/Cross/TCPLibraries/iOS/Build/Products/Debug-iphoneos/ClientiOS.app
-r0
-

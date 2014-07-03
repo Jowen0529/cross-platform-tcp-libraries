@@ -27,7 +27,7 @@ include_directories ("${PROJECT_SOURCE_DIR}/../TCPLibrary/Inc/")
 
 # TCPLibrary Link
 add_library(TCPLibrary STATIC IMPORTED)
-set_property(TARGET TCPLibrary PROPERTY IMPORTED_LOCATION ${PROJECT_SOURCE_DIR}/libTCPLibrary.a)
+set_property(TARGET TCPLibrary PROPERTY IMPORTED_LOCATION ${PROJECT_SOURCE_DIR}/libTCPLibrary-Linux.a)
 
 
 # TCPLibrary Executables and Links

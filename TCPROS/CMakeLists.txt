@@ -38,7 +38,7 @@ include_directories ("${PROJECT_SOURCE_DIR}/../TCPLibrary/Inc/")
 #target_link_libraries(example ${PROJECT_NAME})
 
 add_library(TCPLibrary STATIC IMPORTED)
-set_property(TARGET TCPLibrary PROPERTY IMPORTED_LOCATION ${PROJECT_SOURCE_DIR}/libTCPLibrary.a)
+set_property(TARGET TCPLibrary PROPERTY IMPORTED_LOCATION ${PROJECT_SOURCE_DIR}/libTCPLibrary-LinuxROS.a)
 
 
 # Executable

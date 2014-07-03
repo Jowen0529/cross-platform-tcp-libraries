@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B64021D61956D55800DE6841 /* libTCPLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B64021D51956D55800DE6841 /* libTCPLibrary.a */; };
+		B60DA2121965F6F2005EDF61 /* libTCPLibrary-Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B60DA2111965F6F2005EDF61 /* libTCPLibrary-Mac.a */; };
 		B6C2382A1956D30A00E20E43 /* ClientMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6C238291956D30A00E20E43 /* ClientMain.cpp */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B64021D51956D55800DE6841 /* libTCPLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTCPLibrary.a; path = ../Build/Products/Debug/libTCPLibrary.a; sourceTree = "<group>"; };
+		B60DA2111965F6F2005EDF61 /* libTCPLibrary-Mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libTCPLibrary-Mac.a"; path = "../libTCPLibrary-Mac.a"; sourceTree = "<group>"; };
 		B651D82F1952B48700C68BC8 /* Client */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Client; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C238291956D30A00E20E43 /* ClientMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientMain.cpp; path = ../../Demos/ClientMain.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -34,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B64021D61956D55800DE6841 /* libTCPLibrary.a in Frameworks */,
+				B60DA2121965F6F2005EDF61 /* libTCPLibrary-Mac.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,7 +44,7 @@
 		B651D8261952B48700C68BC8 = {
 			isa = PBXGroup;
 			children = (
-				B64021D51956D55800DE6841 /* libTCPLibrary.a */,
+				B60DA2111965F6F2005EDF61 /* libTCPLibrary-Mac.a */,
 				B6C238291956D30A00E20E43 /* ClientMain.cpp */,
 				B651D8301952B48700C68BC8 /* Products */,
 			);
@@ -193,7 +193,7 @@
 				"HEADER_SEARCH_PATHS[arch=*]" = ./../../TCPLibrary/Inc;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					./../Build/Products/Debug,
+					..,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -206,7 +206,7 @@
 				"HEADER_SEARCH_PATHS[arch=*]" = ./../../TCPLibrary/Inc;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					./../Build/Products/Debug,
+					..,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
