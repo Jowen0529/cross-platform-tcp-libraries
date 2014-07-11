@@ -10,6 +10,8 @@
 
 	<arg name="ServerIP" default="127.0.0.1"/>
 	<arg name="ServerPort" default="45000"/>
+	<arg name="PublishTopic" default="/TCPDefault"/>
+	<arg name="SubscribeTopic" default="/TCPDefault"/>
 	
 	
 	<!-- Launch TCPROS Topic Listener -->
@@ -24,6 +26,8 @@
 		
 		<param name="ServerIP" value="$(arg ServerIP)" type="str"/>
 		<param name="ServerPort" value="$(arg ServerPort)" type="str"/>
+		<param name="PublishTopic" value="$(arg PublishTopic)" type="str"/>
+		<param name="SubscribeTopic" value="$(arg SubscribeTopic)" type="str"/>
 		
 	</node>
 	
