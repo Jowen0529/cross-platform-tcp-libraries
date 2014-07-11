@@ -13,8 +13,10 @@ enum ClientState
     State_Initial = 1 << 0,
     State_Waiting_For_ServerIP = 1 << 1,
     State_Waiting_For_ServerPort = 1 << 2,
-    State_Setting_Up_Client = 1 << 3,
-    State_Client_Running = 1 << 4,
+    State_Waiting_For_PublishTopic = 1 << 3,
+    State_Waiting_For_SubscribeTopic = 1 << 4,
+    State_Setting_Up_Client = 1 << 5,
+    State_Client_Running = 1 << 6,
 };
 
 struct ClientObjC;

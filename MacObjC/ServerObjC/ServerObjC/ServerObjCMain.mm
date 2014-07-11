@@ -27,7 +27,7 @@ int main(int argc, const char* argv[])
         std::string ServerPort("45000");
         
         // Demo Parameters
-        //ServerIP = std::string("10.120.68.14");
+        //ServerIP = std::string("127.0.0.1");
         
         
         // Create Server
@@ -41,28 +41,26 @@ int main(int argc, const char* argv[])
         server->Run();
         
         
-        // Create Client
-        TCPLibrary::Client* client = new TCPLibrary::Client();
-        client->Setup(ServerIP, ServerPort);
-        
-        
-        // Client Subscriber Automatically on Separate Thread
-        // Run with Custom CallBack
-        TCPLibrary::CallBack callBack = &SubscriberCallback;
-        client->Subscribe(callBack);
-        
-        
-        // Run Server and Client on Separate Threads
-        while (server->GetIsServerRunning() || client->GetIsClientRunning())
+        // Broadcast
+        while (server->GetIsServerRunning())
         {
+            // Reset Output Message
+            std::string messageToSend;
+            std::getline(std::cin, messageToSend);
             
+            // Broadcast Message
+            server->Broadcast(messageToSend);
+            
+            // Quit
+            if (messageToSend == std::string("quit"))
+            {
+                server->SetIsServerRunning(false);
+            }
         }
         
         
         // Shutdown Server
-        client->Shutdown();
         server->Shutdown();
-        return 0;
     }
     return 0;
 }

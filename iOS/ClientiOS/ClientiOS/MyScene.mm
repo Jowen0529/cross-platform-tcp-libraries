@@ -16,6 +16,8 @@ struct ClientObjC
     TCPLibrary::Client client;
     std::string ServerIP;
     std::string ServerPort;
+    std::string PublishTopic;
+    std::string SubscribeTopic;
 };
 
 
@@ -147,7 +149,6 @@ static MyScene *sharedSceneInstance;
         clientObjC->ServerIP = inServerIP;
         
         [self AddLabel:[NSString stringWithFormat:@"ServerIP: %@", inString]];
-        
         [self SetState:State_Waiting_For_ServerPort];
     }
     else if(mClientState & State_Waiting_For_ServerPort)
@@ -156,7 +157,22 @@ static MyScene *sharedSceneInstance;
         clientObjC->ServerPort = inServerPort;
         
         [self AddLabel:[NSString stringWithFormat:@"ServerPort: %@", inString]];
+        [self SetState:State_Waiting_For_PublishTopic];
+    }
+    else if(mClientState & State_Waiting_For_PublishTopic)
+    {
+        std::string inPublishTopic([inString UTF8String]);
+        clientObjC->PublishTopic = inPublishTopic;
         
+        [self AddLabel:[NSString stringWithFormat:@"PublishTopic: %@", inString]];
+        [self SetState:State_Waiting_For_SubscribeTopic];
+    }
+    else if(mClientState & State_Waiting_For_SubscribeTopic)
+    {
+        std::string inSubscribeTopic([inString UTF8String]);
+        clientObjC->SubscribeTopic = inSubscribeTopic;
+        
+        [self AddLabel:[NSString stringWithFormat:@"SubscribeTopic: %@", inString]];
         [self SetState:State_Setting_Up_Client];
     }
     else if(mClientState & State_Client_Running)
@@ -208,6 +224,16 @@ static MyScene *sharedSceneInstance;
         self.textField.placeholder = @"Enter ServerPort:";
         self.textField.text = @"";
     }
+    else if(mClientState & State_Waiting_For_PublishTopic)
+    {
+        self.textField.placeholder = @"Enter PublishTopic:";
+        self.textField.text = @"";
+    }
+    else if(mClientState & State_Waiting_For_SubscribeTopic)
+    {
+        self.textField.placeholder = @"Enter SubscribTopic:";
+        self.textField.text = @"";
+    }
     else
     {
         self.textField.placeholder = @"Enter Text:";
@@ -241,8 +267,10 @@ void SubscriberCallback(const std::string& inString)
     }
     else if(mClientState & State_Setting_Up_Client)
     {
-        clientObjC->client.Setup(clientObjC->ServerIP, clientObjC->ServerPort);
+        clientObjC->client.Setup(clientObjC->ServerIP, clientObjC->ServerPort,
+                clientObjC->PublishTopic, clientObjC->SubscribeTopic);
         [self AddLabel:[NSString stringWithFormat:@"Client Connected to Server"]];
+        
         
         // Client Subscriber and Default CallBack
         //clientObjC->client.Subscribe(nullptr);
@@ -252,8 +280,10 @@ void SubscriberCallback(const std::string& inString)
         // Client Subscriber with No Publisher
         //while (clientObjC->client.GetIsClientRunning()) {}
         
+        
         [self SetState:State_Client_Running];
     }
+    
     
     if(IsCallBackStringAvailable)
     {
