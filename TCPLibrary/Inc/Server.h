@@ -27,6 +27,8 @@ namespace TCPLibrary
 		void Run();
 		// Run Server Manually
 		void RunOnce();
+		// Server Broadcast to all Subscribers
+		void Broadcast(const std::string& inMessageToSend);
 
 		// Set Server Running
 		void SetIsServerRunning(const bool isInServerRunning);
