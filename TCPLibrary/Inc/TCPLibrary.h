@@ -11,6 +11,7 @@
 #include <iostream>
 #include <string>
 #include <cstring>
+#include <stdarg.h>
 #include <memory>
 #include <list>
 
@@ -24,7 +25,9 @@ namespace TCPLibrary
 }
 
 #include <TCPSocket.h>
+#include <TCPSocketSet.h>
 #include <TCPSocketUtil.h>
+#include <StringUtil.h>
+#include <Client.h>
 #include <Proxy.h>
 #include <Server.h>
-#include <Client.h>
