@@ -17,13 +17,6 @@ namespace Server
 {
     class ServerCSMain
     {
-        // CallBack Function for Client Subscriber
-        public static void SubscriberCallback(System.String inString)
-        {
-            Console.WriteLine("recv: " + inString);
-        }
-
-
         // Main
         static void Main(string[] args)
         {
@@ -39,33 +32,29 @@ namespace Server
             TCPLibraryCS.ServerCS server = new TCPLibraryCS.ServerCS();
             server.Setup(ServerIP, ServerPort);
 
-
             // Run Server Manually
             //while (server.GetIsServerRunning()) { server.RunOnce(); }
             // Run Server Automatically on Separate Thread
             server.Run();
 
-
-            // Create Client
-            TCPLibraryCS.ClientCS client = new TCPLibraryCS.ClientCS();
-            client.Setup(ServerIP, ServerPort);
-
-
-            // Client Subscriber Automatically on Separate Thread
-            // Run with Custom CallBack
-            TCPLibraryCS.CallBackCS callBack = SubscriberCallback;
-            client.Subscribe(callBack);
-
-
-            // Run Server and Client on Separate Threads
-            while (server.GetIsServerRunning() || client.GetIsClientRunning())
+            // Broadcast
+            while(server.GetIsServerRunning())
             {
+                // Reset Output Message
+                String messageToSend = Console.ReadLine();
 
+	            // Broadcast Message
+	            server.Broadcast(messageToSend);
+
+	            // Quit
+	            if (messageToSend == "quit")
+	            {
+		            server.SetIsServerRunning(false);
+	            }
             }
 
 
             // Shutdown Server
-            client.Shutdown();
             server.Shutdown();
         }
     }

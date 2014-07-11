@@ -22,16 +22,21 @@ int main(const int argc, const char* argv[])
 	// Client Parameters
 	std::string ServerIP("127.0.0.1");
 	std::string ServerPort("45000");
-
+    std::string PublishTopic("/TCPDefault");
+    std::string SubscribeTopic("/TCPDefault");
+    
+    
 	// Demo Parameters
     //ServerIP = std::string("127.0.0.1");
+    //PublishTopic = std::string("/TCPDefault");
+    //SubscribeTopic = std::string("/TCPDefault");
 
 
 	// Create Client
 	TCPLibrary::Client* client = new TCPLibrary::Client();
-	client->Setup(ServerIP, ServerPort);
-
-
+    client->Setup(ServerIP, ServerPort, PublishTopic, SubscribeTopic);
+    
+    
 	// Client Subscriber Automatically on Separate Thread
 	// Run with Default CallBack
 	//client->Subscribe(nullptr);
@@ -41,7 +46,7 @@ int main(const int argc, const char* argv[])
 	// Run with No Publisher
 	//while (client->GetIsClientRunning()) {}
 
-
+    
 	// Client Publisher
 	while (client->GetIsClientRunning())
 	{
@@ -52,7 +57,10 @@ int main(const int argc, const char* argv[])
 		// Publish Message
 		client->Publish(messageToSend);
 
-		if (messageToSend == std::string("quit")) { client->SetIsClientRunning(false); }
+		if (messageToSend == std::string("quit")) 
+		{ 
+			client->SetIsClientRunning(false); 
+		}
 	}
 
 
@@ -67,7 +75,10 @@ int main(const int argc, const char* argv[])
 		if (messageToReceive.size())
 		{
 			std::cout << messageToReceive << std::endl;
-			if(messageToReceive == std::string("quit")) { client.SetIsClientRunning(false); }
+			if(messageToReceive == std::string("quit")) 
+			{ 
+				client.SetIsClientRunning(false); 
+			}
 		}
 	}
 	*/

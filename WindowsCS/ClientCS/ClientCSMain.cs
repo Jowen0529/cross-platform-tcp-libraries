@@ -30,14 +30,18 @@ namespace Client
             // Client Parameters
             String ServerIP = "127.0.0.1";
             String ServerPort = "45000";
+            String PublishTopic = "/TCPDefault";
+            String SubscribeTopic = "/TCPDefault";
 
             // Demo Parameters
             //ServerIP = "127.0.0.1";
+            //PublishTopic = "/TCPDefault";
+            //SubscribeTopic = "/TCPDefult";
 
 
             // Create Client
             TCPLibraryCS.ClientCS client = new TCPLibraryCS.ClientCS();
-            client.Setup(ServerIP, ServerPort);
+            client.Setup(ServerIP, ServerPort, PublishTopic, SubscribeTopic);
 
             // Run Client Subscriber Automatically on Separate Thread
             // Run with Default CallBack
@@ -51,26 +55,16 @@ namespace Client
             // Client Publisher
             while (client.GetIsClientRunning())
             {   
-                String message = Console.ReadLine();
-                client.Publish(message);
-            }
+                String messageToSend = Console.ReadLine();
+                client.Publish(messageToSend);
 
-            
-            /*
-            // Run Client Subscriber Manually
-            while (client.GetIsClientRunning())
-            {
-                String message = "";
-                client.SubscribeOnce(ref message);
-
-                if (message.Length > 0)
+                if (messageToSend == "quit")
                 {
-                    Console.WriteLine(message);
+                    client.SetIsClientRunning(false);
                 }
             }
-            */
 
-            
+
             // Shutdown Client
             client.Shutdown();
         }
