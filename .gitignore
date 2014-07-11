@@ -1,17 +1,17 @@
 # GitIgnore
 
 # Windows, WindowsCS Projects
-**/Debug/
-**/bin/
-**/obj/
+**/Debug/**
+**/bin/**
+**/obj/**
 
 # Mac, MacOjbC Projects
-**/Build/
+**/Build/**
 
 # Linux, ROS Projects
-**/build/
-**/bin/
-**/lib/
+**/build/**
+**/bin/**
+**/lib/**
 
 # Object Files, Executables
 *.o
