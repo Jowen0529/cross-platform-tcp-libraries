@@ -16,10 +16,10 @@ namespace TCPLibrary
 		// Client Constructor
 		Client();
 		// Client Destructor
-		~Client();
+		~Client();   
 
 		// Setup Client Node with Server IP and Server Port
-		const int Setup(const std::string inServerIP, const std::string inServerPort);
+        const int Setup(const std::string inServerIP, const std::string inServerPort, const std::string inPublishTopic, const std::string inSubscribeTopic);
 		// Client Shutdown
 		const int Shutdown();
 

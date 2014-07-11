@@ -37,22 +37,13 @@ namespace TCPLibrary
 		const int SetNonBlocking(bool inShouldNotBlock);
         // Report If Invalid Socket or Socket Errors
 		const bool IsSocketError() const;
-        
-        /*
+
 		// Set Active Socket in Set
-        void Set(fd_set* inSet) const;
+		void Set(void* inSet) const;
 		// Clear Active Socket From Set
-        void Clear(fd_set* inSet) const;
+		void Clear(void* inSet) const;
 		// Check If Socket Is Set
-        const int IsSet(fd_set* inSet) const;
-        */
-        // Set Active Socket in Set
-        void Set(void* inSet) const;
-		// Clear Active Socket From Set
-        void Clear(void* inSet) const;
-		// Check If Socket Is Set
-        const int IsSet(void* inSet) const;
-        
+		const int IsSet(void* inSet) const;
 
 	private:
         // TCPSocket Implementation Class

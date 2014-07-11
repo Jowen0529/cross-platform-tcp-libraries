@@ -13,9 +13,10 @@ namespace TCPLibrary
 	class Proxy
 	{
 	public:
-		// Constructor includes Socket and Network ID
-		Proxy(std::shared_ptr<TCPSocket> inSocket, const std::string inIP, const int inNetworkID);
-		// Destructor
+		// Constructor for Proxy includes Socket, Network ID, Topics
+		Proxy(std::shared_ptr<TCPSocket> inSocket, const std::string inIP, const int inNetworkID,
+              const std::string inPublishTopic, const std::string inSubscribeTopic);
+		// Destructor for Proxy
 		~Proxy();
 
 		// TCPSocket Getter
@@ -24,6 +25,10 @@ namespace TCPLibrary
 		inline const std::string& GetIP() const { return mIP; }
 		// ID Getter
 		inline const int GetID() const { return mNetworkID; }
+        // Publish Topic Getter
+        inline const std::string& GetPublishTopic() const { return mPublishTopic; }
+        // Subscribe Topic Getter
+        inline const std::string& GetSubscribeTopic() const { return mSubscribeTopic; }
 
 	private:
 		// Client TCPSocket
@@ -32,7 +37,11 @@ namespace TCPLibrary
 		int mNetworkID;
 		// IP Address
 		std::string mIP;
-
+        // Publisher Topic
+        std::string mPublishTopic;
+        // Subscriber Topic
+        std::string mSubscribeTopic;        
+        
 	//block:
 		// Constructor Blocked, Requires Parameters
 		Proxy() {}
