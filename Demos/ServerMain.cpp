@@ -9,13 +9,6 @@
 
 #include <TCPLibrary.h>
 
-// CallBack Function for Client Subscriber
-void SubscriberCallback(const std::string& inString)
-{
-	std::cout << "recv: " << inString << std::endl;
-}
-
-
 // Main
 int main(const int argc, const char* argv[])
 {
