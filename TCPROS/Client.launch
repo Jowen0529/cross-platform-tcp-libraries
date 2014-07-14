@@ -10,9 +10,7 @@
 
 	<arg name="ServerIP" default="127.0.0.1"/>
 	<arg name="ServerPort" default="45000"/>
-	<arg name="PublishTopic" default="/TCPDefault"/>
-	<arg name="SubscribeTopic" default="/TCPDefault"/>
-	
+
 	
 	<!-- Launch TCPROS Topic Listener -->
 	<node name="TCPROSListener" pkg="rostopic" type="rostopic" 
@@ -26,8 +24,20 @@
 		
 		<param name="ServerIP" value="$(arg ServerIP)" type="str"/>
 		<param name="ServerPort" value="$(arg ServerPort)" type="str"/>
-		<param name="PublishTopic" value="$(arg PublishTopic)" type="str"/>
-		<param name="SubscribeTopic" value="$(arg SubscribeTopic)" type="str"/>
+		<param name="PublishTopic" value="/TCPDefault" type="str"/>
+		<param name="SubscribeTopic" value="/TCPDefault" type="str"/>
+		
+	</node>
+	
+	
+	<!-- Launch Wiimote -->
+	<node name="TCPWiimote" pkg="TCPROS" type="TCPWiimote"
+		output="screen" required="true">
+		
+		<param name="ServerIP" value="$(arg ServerIP)" type="str"/>
+		<param name="ServerPort" value="$(arg ServerPort)" type="str"/>
+		<param name="PublishTopic" value="/TCPWiimote" type="str"/>
+		<param name="SubscribeTopic" value="/TCPWiimote" type="str"/>
 		
 	</node>
 	

@@ -46,13 +46,15 @@ rosbuild_add_executable (Server ../Demos/ServerMain.cpp)
 rosbuild_add_executable (Client ../Demos/ClientMain.cpp)
 rosbuild_add_executable (ClientROS ../Demos/ClientROSMain.cpp)
 rosbuild_add_executable (ServerROS ../Demos/ServerROSMain.cpp)
+rosbuild_add_executable (TCPWiimote ../Demos/TCPWiimoteMain.cpp)
 
 # Link Library
 target_link_libraries (Server TCPLibrary)
 target_link_libraries (Client TCPLibrary)
 target_link_libraries (ClientROS TCPLibrary)
 target_link_libraries (ServerROS TCPLibrary)
+target_link_libraries (TCPWiimote TCPLibrary)
 
 # Add Install Targets
-install (TARGETS  Server Client ClientROS ServerROS DESTINATION bin)
+install (TARGETS  Server Client ClientROS ServerROS TCPWiimote DESTINATION bin)
 
