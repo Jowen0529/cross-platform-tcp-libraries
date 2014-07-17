@@ -1,0 +1,33 @@
+﻿<!-- Created by Zachary Metcalf -->
+<!-- zachmetcalf@gmail.com -->
+
+<!-- TCPClient.launch -->
+<!-- TCPLibrary -->
+
+<!-- TCPROS Launch File -->
+
+<launch>
+
+	<arg name="ServerIP" default="127.0.0.1"/>
+	<arg name="ServerPort" default="45000"/>
+	
+	
+	<!-- Launch Wiimote -->
+	<node name="Wiimote" pkg="wiimote" type="wiimote_node.py"
+		output="screen" respawn="true">
+		
+	</node>
+	
+	
+	<!-- Launching Wiimote Client -->
+	<node name="TCPWiimote" pkg="TCPROS" type="TCPWiimote"
+		output="screen" required="false">
+		
+		<param name="ServerIP" value="$(arg ServerIP)" type="str"/>
+		<param name="ServerPort" value="$(arg ServerPort)" type="str"/>
+		<param name="PublishTopic" value="/TCPWiimote" type="str"/>
+		<param name="SubscribeTopic" value="/TCPWiimote" type="str"/>
+		
+	</node>
+	
+</launch>

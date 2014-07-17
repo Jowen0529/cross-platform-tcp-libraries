@@ -26,6 +26,7 @@
 
 # VisualStudio
 *.user
+*.suo
 *.idb
 *.pdb
 *.ilk

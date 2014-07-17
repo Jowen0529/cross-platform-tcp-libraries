@@ -1,7 +1,7 @@
 ﻿<!-- Created by Zachary Metcalf -->
 <!-- zachmetcalf@gmail.com -->
 
-<!-- TCPROS.launch -->
+<!-- TCPClient.launch -->
 <!-- TCPLibrary -->
 
 <!-- TCPROS Launch File -->
@@ -29,17 +29,4 @@
 		
 	</node>
 	
-	
-	<!-- Launch Wiimote -->
-	<node name="TCPWiimote" pkg="TCPROS" type="TCPWiimote"
-		output="screen" required="true">
-		
-		<param name="ServerIP" value="$(arg ServerIP)" type="str"/>
-		<param name="ServerPort" value="$(arg ServerPort)" type="str"/>
-		<param name="PublishTopic" value="/TCPWiimote" type="str"/>
-		<param name="SubscribeTopic" value="/TCPWiimote" type="str"/>
-		
-	</node>
-	
 </launch>
-

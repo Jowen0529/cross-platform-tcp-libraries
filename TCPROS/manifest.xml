@@ -11,7 +11,7 @@
 
 	<depend package="roscpp"/>
 	<depend package="sensor_msgs"/>
-	<depend package='wiimote"/>
+	<depend package="wiimote"/>
 
 </package>
 

@@ -44,9 +44,9 @@ set_property(TARGET TCPLibrary PROPERTY IMPORTED_LOCATION ${PROJECT_SOURCE_DIR}/
 # Executable
 rosbuild_add_executable (Server ../Demos/ServerMain.cpp)
 rosbuild_add_executable (Client ../Demos/ClientMain.cpp)
-rosbuild_add_executable (ClientROS ../Demos/ClientROSMain.cpp)
-rosbuild_add_executable (ServerROS ../Demos/ServerROSMain.cpp)
-rosbuild_add_executable (TCPWiimote ../Demos/TCPWiimoteMain.cpp)
+rosbuild_add_executable (ClientROS src/ClientROSMain.cpp)
+rosbuild_add_executable (ServerROS src/ServerROSMain.cpp)
+rosbuild_add_executable (TCPWiimote src/TCPWiimoteMain.cpp)
 
 # Link Library
 target_link_libraries (Server TCPLibrary)
